@@ -21,6 +21,7 @@ import android.widget.Toast;
 import androidx.webkit.WebViewAssetLoader;
 
 import org.json.JSONObject;
+import org.json.JSONException;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -32,6 +33,7 @@ public final class MainActivity extends Activity {
     private static final String APP_URL = "https://" + APP_HOST + APP_PATH;
     private static final String IMPORT_PATH = "/company-import";
     private static final String SHARE_STATE = "pending-company-share";
+    private static final LinkedInAccount ACCOUNT = new LinkedInAccount();
 
     private FrameLayout root;
     private WebView tracker;
@@ -93,6 +95,7 @@ public final class MainActivity extends Activity {
                 if (isAppPath(Uri.parse(url), APP_PATH)) {
                     trackerReady = true;
                     deliverShare();
+                    showAccount();
                 }
             }
 
@@ -108,6 +111,19 @@ public final class MainActivity extends Activity {
                     return false;
                 }
 
+                if (isAppPath(url, "/account/sign-in") || isAppPath(url, "/account/sign-out")) {
+                    if (request.hasGesture()) {
+                        if ("/account/sign-in".equals(url.getPath())) {
+                            Uri authorization = ACCOUNT.begin();
+                            if (authorization != null) openInBrowser(authorization);
+                        } else {
+                            ACCOUNT.signOut();
+                        }
+                        showAccount();
+                    }
+                    return true;
+                }
+
                 if (request.hasGesture() && ("https".equals(scheme) || "http".equals(scheme))) {
                     openInBrowser(url);
                 }
@@ -117,6 +133,7 @@ public final class MainActivity extends Activity {
 
         pendingShare = savedInstanceState == null
                 ? readShare(getIntent()) : savedInstanceState.getString(SHARE_STATE);
+        if (savedInstanceState == null) receiveAccountLink(getIntent());
         if (savedInstanceState == null || tracker.restoreState(savedInstanceState) == null) {
             tracker.loadUrl(APP_URL);
         }
@@ -150,6 +167,27 @@ public final class MainActivity extends Activity {
         setIntent(intent);
         pendingShare = readShare(intent);
         deliverShare();
+        receiveAccountLink(intent);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        showAccount();
+    }
+
+    private void receiveAccountLink(Intent intent) {
+        if (intent != null && Intent.ACTION_VIEW.equals(intent.getAction())
+                && ACCOUNT.receive(intent.getData(), () -> runOnUiThread(this::showAccount))) {
+            showAccount();
+        }
+    }
+
+    private void showAccount() {
+        if (!trackerReady || isDestroyed()) return;
+        try {
+            tracker.evaluateJavascript("window.setPayloadAccount(" + ACCOUNT.state() + ")", null);
+        } catch (JSONException ignored) {}
     }
 
     private static String readShare(Intent intent) {
