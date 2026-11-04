@@ -23,10 +23,34 @@ you can open directly in a desktop browser.
    Manager** and start it.
 4. Select the **app** run configuration and your device, then click **Run ▶**.
    The app supports Android 8.0 and newer.
-5. Open D-Fend Solutions, tap **Compare**, and return to the profile to expand
+5. Open any company profile, tap **Compare**, and return to the profile to expand
    the map. The directory and comparison run offline. Google Maps, the remote
    logo, and external links use the internet. Companies you add are stored
    locally in this installation.
+
+## Add a Company From a Link
+
+- In the directory, choose **Add Company**, paste a company website or
+  LinkedIn link, and choose **Infer Details**.
+- From LinkedIn on Android, use **Share via** (or the system share menu)
+  and select **The Payload**. The app opens a draft with the shared link.
+- Review the suggestions, fill in any missing details, then choose
+  **Save Company**. In the Android app, website imports can read public
+  HTTPS page metadata. The standalone HTML suggests a name from the URL.
+  LinkedIn drafts use the company URL and any text included in the share.
+- Type a country name or two-letter country code in the country picker.
+
+## Data and Network Access
+
+Added company profiles are stored locally. The app requests Internet access
+for maps, external logos, and user-initiated website imports. Shared links
+open as drafts. Website imports validate each destination and redirect,
+reject local and private network addresses, and read metadata without
+rendering the imported page. The Android app opens external links in the
+system browser.
+
+If you edit the tracker’s inline script, update its SHA-256 hash in the
+HTML Content Security Policy so the browser can run the new script.
 
 ## Build a Debug APK
 

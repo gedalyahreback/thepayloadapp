@@ -2,7 +2,8 @@
 <resources>
     <string name="app_name">The Payload</string>
     <string name="no_browser">No browser is available to open this link</string>
-    <color name="background">#071323</color>
+    <color name="background">#092747</color>
+    <color name="launcher_background">#DDEFFF</color>
 
     <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@color/background</item>
