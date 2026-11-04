@@ -1,0 +1,1294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071323">
+<title>The Payload | Defense Company Tracker</title>
+<style>
+:root{color-scheme:dark;--bg:#071323;--panel:#0b1a2b;--ink:#edf7ff;--muted:#a9bed2;--line:#254760;--accent:#76e5ff;--blue:#173b56;--mono:ui-monospace,SFMono-Regular,Consolas,monospace}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:linear-gradient(180deg,#07132324,#071323 32rem),repeating-linear-gradient(0deg,transparent 0 27px,#337eb21c 27px 28px),repeating-linear-gradient(90deg,transparent 0 27px,#337eb21c 27px 28px),var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+[hidden]{display:none!important}a{color:var(--accent);text-underline-offset:3px}button,input,select,textarea{font:inherit}button,select{cursor:pointer}button,a,input,select,textarea{outline-offset:4px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent)}button{border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);padding:.58rem .8rem}button:hover{border-color:var(--accent)}button.primary{background:var(--accent);color:#071323;border-color:var(--accent);font-weight:700}
+.shell{max-width:1120px;margin:auto;padding:clamp(16px,4vw,42px)}.mast{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:15px}.brand{color:var(--ink);text-decoration:none;font:800 clamp(17px,4vw,23px)/1.2 var(--mono);letter-spacing:.12em}.index,.eyebrow,.section-label{font:700 11px/1.4 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}.index{color:var(--muted);text-align:right}.hero{margin:35px 0 23px}.hero h1,.profile h1{font-size:clamp(28px,6vw,55px);line-height:1.04;letter-spacing:-.04em;margin:9px 0 10px}.hero p,.profile p{color:var(--muted);margin:0}.toolbar{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:9px;margin:18px 0}.control{min-width:0;width:100%;border:1px solid var(--line);border-radius:8px;padding:.62rem .75rem;color:var(--ink);background:#09192a}.control::placeholder{color:var(--muted)}.count{color:var(--muted);font:12px var(--mono);margin:16px 0 10px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:12px}.card{display:flex;flex-direction:column;gap:8px;text-align:left;min-width:0;width:100%;padding:15px 16px;background:var(--panel);border-color:var(--line);min-height:164px}.card-top{display:flex;justify-content:space-between;align-items:start;gap:8px}.card-name{font-weight:760;font-size:1.08rem}.arrow{color:var(--accent)}.tagrow{display:flex;flex-wrap:wrap;gap:6px}.tag{background:#102b41;border:1px solid #2b526d;border-radius:5px;padding:2px 6px;font:600 11px/1.45 var(--mono);color:#d2eeff}.tag.accent{color:var(--accent)}.summary,.small{font-size:.88rem;color:var(--muted)}.flag{white-space:nowrap;font-family:system-ui,sans-serif}.empty{padding:20px;border:1px dashed var(--line);border-radius:9px;color:var(--muted)}
+.profile{max-width:760px;margin:22px auto 0}.back{margin-bottom:14px}.profile-card{border:1px solid #3d82ab;border-radius:13px;background:var(--panel);padding:clamp(14px,3vw,25px)}.identity{display:flex;align-items:center;gap:12px}.monogram{display:grid;place-items:center;background:var(--blue);border:1px solid var(--line);border-radius:8px;min-width:52px;height:52px;color:var(--accent);font:800 18px var(--mono)}.profile h1{font-size:clamp(24px,5.7vw,38px);margin:0 0 6px}.profile .overview{margin-top:13px}.profile section{border-top:1px solid var(--line);margin-top:17px;padding-top:12px}.profile h2{margin:0 0 9px}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.tile{border:1px solid var(--line);background:#0a1727;border-radius:7px;padding:8px 10px;min-width:0;overflow-wrap:anywhere}.tile dt{color:var(--muted);font:600 11px var(--mono);margin-bottom:4px}.tile dd{margin:0;font-size:.88rem}.stack{display:grid;gap:6px}.row{display:flex;align-items:baseline;justify-content:space-between;gap:12px}.row span:last-child{text-align:right}.profile .website{display:block;text-align:center;border:1px solid #3d82ab;border-radius:8px;padding:9px;margin-top:16px;text-decoration:none;font-weight:700}.website:hover{background:var(--blue)}.profile-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}.profile-actions .website{margin:0}.map-frame{display:block;width:100%;height:240px;border:1px solid var(--line);border-radius:8px;background:#0a1727;margin-top:8px}.map-controls{margin-top:9px}.map-label{margin:8px 0 0!important}.compare h1{margin-top:12px}.compare .detail-grid{margin:12px 0}.compare label{font-size:.85rem}.compare .control{margin-top:4px}.compare-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:.88rem;margin:12px 0}.compare-table th,.compare-table td{padding:9px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere;border-bottom:1px solid var(--line)}.compare-table th:first-child{width:21%}.compare-table thead th{color:var(--accent)}.compare-table a{font-weight:700}.compare-table td{color:var(--muted)}.identity img{display:block;background:white;padding:4px;border-radius:4px}details{margin-top:14px;color:var(--muted);font-size:.84rem}summary{cursor:pointer}details ul{margin:7px 0 0;padding-left:20px}details li{margin:3px 0}.foot{color:var(--muted);border-top:1px solid var(--line);font-size:.78rem;margin-top:25px;padding:12px 0}
+dialog{width:min(540px,calc(100% - 24px));max-height:90vh;border:1px solid #3d82ab;border-radius:12px;background:var(--panel);color:var(--ink);padding:20px}dialog::backdrop{background:#02070bd9}dialog h2{margin:0 0 13px}dialog label{display:block;font-size:.82rem;margin:7px 0}dialog label .control{margin-top:3px}.actions{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:650px){.toolbar{grid-template-columns:1fr 1fr}.search{grid-column:1/-1}.toolbar .primary{grid-column:1/-1}.hero{margin:24px 0 18px}.card{min-height:0}.profile{margin-top:14px}.profile-card{padding:14px}.identity{gap:9px}.monogram{min-width:38px;height:38px;font-size:14px}.detail-grid{gap:5px}.tile{padding:7px}.row{gap:8px}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="mast"><a href="#" class="brand">THE PAYLOAD</a><span class="index">Defense Company Tracker</span></header>
+<main>
+<div id="directory">
+<div class="hero"><div class="eyebrow">Market Intelligence / Company Index</div><h1>Track the defense ecosystem.</h1><p>Explore drone, counter-drone and defense technology companies by founding origin.</p></div>
+<div class="toolbar">
+<label class="search"><span class="sr">Search companies</span><input id="search" class="control" type="search" placeholder="Search companies, products or places"></label>
+<label><span class="sr">Founding origin</span><select id="country" class="control"><option value="">All origins</option><option value="IL">Israel</option><option value="UA">Ukraine</option></select></label>
+<label><span class="sr">Category</span><select id="category" class="control"><option value="">All categories</option><option>Drones</option><option>Counter-Drones</option><option>Other Defense Tech</option></select></label>
+<button class="primary" id="add" type="button">+ Add Company</button>
+</div>
+<p id="count" class="count" role="status"></p><div id="cards" class="grid"></div>
+</div>
+<div id="profile" class="profile" hidden></div>
+<div id="comparison" class="profile compare" hidden></div>
+</main>
+<footer class="foot">Founding origin and office role are tracked separately. Profiles use publicly available data as of November 4, 2026. Added profiles are saved on this browser.</footer>
+</div>
+<dialog id="editor" aria-labelledby="editor-title">
+<form id="form">
+<h2 id="editor-title">Add Company</h2>
+<label>Company name<input class="control" name="name" required maxlength="100"></label>
+<div class="detail-grid">
+<label>Founding country<select class="control" name="country"><option value="IL">Israel</option><option value="UA">Ukraine</option></select></label>
+<label>Ownership<select class="control" name="ownership"><option value="">Unverified</option><option>Private</option><option>Public</option><option>Private subsidiary</option></select></label>
+</div>
+<label>Category<select class="control" name="category"><option>Drones</option><option>Counter-Drones</option><option>Other Defense Tech</option></select></label>
+<label>Founding city and year, if known<input class="control" name="origin" maxlength="100" placeholder="City · year"></label>
+<label>Company website<input class="control" name="website" type="url" required placeholder="https://example.com"></label>
+<label>What it builds<textarea class="control" name="summary" required rows="2" maxlength="320"></textarea></label>
+<p class="small" id="form-message" role="status"></p>
+<div class="actions"><button id="cancel" type="button">Cancel</button><button type="submit" class="primary">Save Company</button></div>
+</form>
+</dialog>
+<script id="seed" type="application/json">[
+  {
+    "id": "d-fend",
+    "name": "D-Fend Solutions",
+    "country": "IL",
+    "origin": "Israel · 2017",
+    "category": "Counter-Drones",
+    "ownership": "Private subsidiary · Motorola Solutions",
+    "summary": "Builds counter-drone systems centered on radio-frequency cyber takeover.",
+    "website": "https://d-fendsolutions.com/",
+    "logo": "https://mma.prnewswire.com/media/1333159/D_Fend_Solutions_Logo.jpg",
+    "offices": [
+      [
+        "Corporate HQ",
+        "IL",
+        "Ra’anana, Israel",
+        "13 Zarchin Street, Building C"
+      ],
+      [
+        "North America office",
+        "US",
+        "McLean, Virginia, US",
+        "8255 Greensboro Drive, Suite 110"
+      ],
+      [
+        "UK office",
+        "GB",
+        "London, UK",
+        "16 Upper Woburn Place"
+      ],
+      [
+        "Japan office",
+        "JP",
+        "Tokyo, Japan",
+        "Tekko Building, 1-8-2 Marunouchi"
+      ]
+    ],
+    "products": [
+      [
+        "EnforceAir2",
+        "RF detection and cyber takeover"
+      ],
+      [
+        "EnforceAir PLUS",
+        "RF cyber takeover, integrated radar and optional jamming"
+      ],
+      [
+        "MSC2",
+        "Multi-sensor command and control"
+      ]
+    ],
+    "funding": "US$65M disclosed funding tracked before acquisition · Oct 2026 estimate",
+    "employees": "201–500 · company LinkedIn range",
+    "investors": [
+      "Israel Growth Partners",
+      "Vertex Ventures Israel",
+      "Vertex Growth",
+      "Claridge Israel"
+    ],
+    "founders": [
+      "Zohar Halachmi",
+      "Assaf Monsa",
+      "Yaniv Benbenisti"
+    ],
+    "customers": [
+      "U.S. Secret Service (EnforceAir maintenance purchase order, 2024)"
+    ],
+    "coverage": "The Payload · October 13 working edition, maritime counter-drone coverage",
+    "sources": [
+      [
+        "Public offices",
+        "https://d-fendsolutions.com/about-us/locations/"
+      ],
+      [
+        "EnforceAir products",
+        "https://d-fendsolutions.com/enforceair/"
+      ],
+      [
+        "MSC2",
+        "https://d-fendsolutions.com/deployments/"
+      ],
+      [
+        "Motorola acquisition",
+        "https://www.motorolasolutions.com/newsroom/press-releases/motorola-solutions-completes-acquisition-of-dfend-solutions.html"
+      ],
+      [
+        "Founders",
+        "https://www.jpost.com/defense-and-tech/article-885530"
+      ],
+      [
+        "Funding history",
+        "https://aventure.vc/companies/d-fend-solutions-ufsayiv6/fundraising"
+      ],
+      [
+        "Funding announcement",
+        "https://d-fendsolutions.com/press_releases/d-fend-solutions-raises-31m-to-fortify-cyber-counter-drone-technology-and-market-leadership/"
+      ],
+      [
+        "Employee range",
+        "https://il.linkedin.com/company/d-fend-solutions"
+      ],
+      [
+        "U.S. Secret Service purchase order",
+        "https://www.highergov.com/contract/70US0924P70092004/"
+      ]
+    ]
+  },
+  {
+    "id": "xtend",
+    "name": "XTEND AI Robotics",
+    "country": "IL",
+    "origin": "Israel · 2018",
+    "category": "Drones",
+    "ownership": "Public · NYSE: XTND",
+    "summary": "Builds robotic systems and the XOS platform for operating and coordinating them.",
+    "website": "https://xtend.me/",
+    "offices": [
+      [
+        "Israel operations",
+        "IL",
+        "Tel Aviv, Israel",
+        "7 HaBarzel Street"
+      ],
+      [
+        "Corporate HQ",
+        "US",
+        "Tampa, Florida, US",
+        "5247 Crossroads Park Drive"
+      ]
+    ],
+    "products": [
+      [
+        "XOS",
+        "Robotics operating system"
+      ],
+      [
+        "STRIKER",
+        "Tactical drone platform"
+      ],
+      [
+        "NEST",
+        "Robotic deployment and recovery station"
+      ]
+    ],
+    "funding": "About US$250M reported including merger financing · Oct 2026",
+    "employees": "267 before reported layoffs · Nov 2026",
+    "investors": [
+      "Chartered Group",
+      "NFX",
+      "TAU Ventures",
+      "Clal-Tech",
+      "Protego Ventures"
+    ],
+    "founders": [
+      "Aviv Shapira",
+      "Matteo Shapira",
+      "Rubi Liani",
+      "Adir Tubi"
+    ],
+    "customers": [
+      "Israel Defense Forces",
+      "U.S. Department of Defense",
+      "UK Ministry of Defence",
+      "Singapore Army"
+    ],
+    "coverage": "The Payload · October 13 and 21 working editions, NEST and STRIKER",
+    "sources": [
+      [
+        "Listing and corporate headquarters",
+        "https://xtend.me/ir/"
+      ],
+      [
+        "Defense users",
+        "https://www.sec.gov/Archives/edgar/data/2024306/000149315226013063/form425.htm"
+      ],
+      [
+        "Israel office filing",
+        "https://edgar-mirror.sec-api.io/2111860/000119312526187219/d121457ds4.htm"
+      ],
+      [
+        "U.S. office filing",
+        "https://www.publicnow.com/view/EDEA638872F696E570946A27DDEBB93F195D23CE"
+      ],
+      [
+        "Investment and deployments",
+        "https://roboticsregistry.co/companies/xtend"
+      ],
+      [
+        "Headcount and reported layoffs",
+        "https://www.calcalist.co.il/calcalistech/article/skjjhqutgg"
+      ],
+      [
+        "Funding including merger",
+        "https://www.globes.co.il/news/article.aspx?did=1001554538"
+      ]
+    ]
+  },
+  {
+    "id": "axon-vision",
+    "name": "Axon Vision",
+    "country": "IL",
+    "origin": "Israel · 2017",
+    "category": "Counter-Drones",
+    "ownership": "Public · TASE: AXN",
+    "summary": "Builds AI perception and decision-support systems for defense platforms.",
+    "website": "https://www.axon-vision.com/",
+    "offices": [
+      [
+        "Corporate HQ",
+        "IL",
+        "Tel Aviv, Israel",
+        "150 Menachem Begin Road"
+      ],
+      [
+        "U.S. operations",
+        "US",
+        "United States"
+      ]
+    ],
+    "products": [
+      [
+        "ForceField",
+        "Integrated counter-drone system"
+      ],
+      [
+        "Edge360",
+        "AI-enabled situational awareness"
+      ],
+      [
+        "EdgeUAV",
+        "Video analytics for uncrewed aircraft"
+      ]
+    ],
+    "funding": "US$12M IPO proceeds · TASE statistics; lifetime total unverified",
+    "employees": "11–50 · company directory range",
+    "investors": [],
+    "founders": [
+      "Ido Rozenberg (verified co-founder)"
+    ],
+    "customers": [],
+    "coverage": "The Payload · October 13 working edition, ForceField demonstration",
+    "sources": [
+      [
+        "Company address",
+        "https://www.axon-vision.com/investor-relations"
+      ],
+      [
+        "Founding record",
+        "https://innovationisrael.org.il/en/importWinner/515697936/"
+      ],
+      [
+        "U.S. operations, listing and co-founder",
+        "https://www.prnewswire.com/news-releases/axon-vision-accelerates-us-growth-strategy-with-expanded-us-operating-presence-and-strategic-leadership-302915562.html"
+      ],
+      [
+        "IPO statistics",
+        "https://content.tase.co.il/media/o2elgy1j/stat_210_ipo_companies_2026_eng.pdf"
+      ],
+      [
+        "Company size and ForceField",
+        "https://finder.startupnationcentral.org/company_page/axon-vision?section=business"
+      ]
+    ]
+  },
+  {
+    "id": "thirdeye",
+    "name": "ThirdEye Systems",
+    "country": "IL",
+    "origin": "Israel",
+    "category": "Counter-Drones",
+    "ownership": "Public · TASE: THES",
+    "summary": "Builds electro-optical sensors and AI-based detection for drone and counter-drone systems.",
+    "website": "https://thirdeye-systems.com/",
+    "offices": [
+      [
+        "Corporate HQ",
+        "IL",
+        "Netanya, Israel",
+        "14 Beni Gaon Street"
+      ]
+    ],
+    "products": [
+      [
+        "Iron Web",
+        "Electro-optical detection and tracking for counter-drone systems"
+      ]
+    ],
+    "funding": "US$10M EDGE investment reported in 2026 · lifetime total unverified",
+    "employees": "60 · Dec 2025, Stock Analysis",
+    "investors": [
+      "EDGE Group"
+    ],
+    "founders": [
+      "Yoel Motola",
+      "Lior Segal",
+      "Gil Barak"
+    ],
+    "customers": [
+      "Israel Defense Forces (company-reported use)"
+    ],
+    "coverage": "The Payload · October 13 working edition, ThirdEye and ParaZero collaboration",
+    "sources": [
+      [
+        "Founders, Israeli office and IDF use",
+        "https://thirdeye-systems.com/about-us/"
+      ],
+      [
+        "EDGE investment",
+        "https://en.globes.co.il/en/article-uae-co-edge-group-confirms-investment-in-israels-thirdeye-systems-1001531725"
+      ],
+      [
+        "ParaZero collaboration",
+        "https://parazero.com/2026/09/15/parazero-and-thirdeye-systems-sign-mou-to-develop-a-360-detect-to-defeat-counter-uas-solution-for-armored-vehicles-and-critical-assets/"
+      ],
+      [
+        "Employee data",
+        "https://stockanalysis.com/quote/tlv/THES/employees/"
+      ]
+    ]
+  },
+  {
+    "id": "parazero",
+    "name": "ParaZero Technologies",
+    "country": "IL",
+    "origin": "Be’er Sheva, Israel · 2014 (company history)",
+    "category": "Counter-Drones",
+    "ownership": "Public · Nasdaq: PRZO",
+    "summary": "Builds net-based counter-drone systems and parachute safety systems for drones.",
+    "website": "https://parazero.com/",
+    "offices": [
+      [
+        "Corporate HQ",
+        "IL",
+        "Kfar Saba, Israel",
+        "1 Hatachana Street"
+      ]
+    ],
+    "products": [
+      [
+        "TillOnAIR",
+        "Integrated detection and reusable net-capture interceptors"
+      ],
+      [
+        "DefendAir",
+        "Net-launching counter-drone platform"
+      ],
+      [
+        "SafeAir",
+        "Parachute-based drone recovery system"
+      ]
+    ],
+    "funding": "US$5.3M gross across two 2025 registered offerings · lifetime total unverified",
+    "employees": "22 full-time · Mar 2026 filing",
+    "investors": [],
+    "founders": [
+      "Amir and Ran (first names disclosed by company)"
+    ],
+    "customers": [],
+    "coverage": "The Payload · October 13 working edition, ThirdEye and ParaZero collaboration. A U.S. federal agency and an Israeli defense entity placed orders, but neither agency was named in the announcements.",
+    "sources": [
+      [
+        "Israeli incorporation, headquarters, financing and employees",
+        "https://www.sec.gov/Archives/edgar/data/1916241/000121390026034376/ea0282637-20f_parazero.htm"
+      ],
+      [
+        "TillOnAIR launch",
+        "https://parazero.com/2026/10/26/parazero-launches-tillonair-an-autonomous-detect-to-defeat-c-uas-system-with-reusable-interceptors/"
+      ],
+      [
+        "Unnamed U.S. federal customer",
+        "https://parazero.com/2026/08/25/parazero-receives-first-defendair-order-from-u-s-federal-agency-marking-entry-into-the-u-s-counter-uas-market/"
+      ],
+      [
+        "Unnamed Israeli defense customer",
+        "https://www.nasdaq.com/press-release/parazero-secures-new-order-defendair-counter-uas-systems-israeli-defense-entity-2026"
+      ],
+      [
+        "Founding story",
+        "https://parazero.com/2025/08/22/parazero-a-story-of-innovation/"
+      ],
+      [
+        "U.S. federal order",
+        "https://www.globenewswire.com/news-release/2026/08/25/3350425/0/en/parazero-receives-first-defendair-order-from-u-s-federal-agency-marking-entry-into-the-u-s-counter-uas-market.html"
+      ],
+      [
+        "Israeli defense order",
+        "https://parazero.com/2026/03/13/parazero-secures-a-new-order-for-defendair-counter-uas-systems-from-israeli-defense-entity/"
+      ]
+    ]
+  },
+  {
+    "id": "high-lander",
+    "name": "High Lander",
+    "country": "IL",
+    "origin": "Israel · 2018",
+    "category": "Other Defense Tech",
+    "ownership": "Private",
+    "summary": "Builds airspace-management, fleet-management and low-altitude security software.",
+    "website": "https://www.highlander.io/",
+    "offices": [
+      [
+        "Corporate HQ",
+        "IL",
+        "Tel Aviv, Israel",
+        "39 Shaul HaMelech Boulevard"
+      ]
+    ],
+    "products": [
+      [
+        "Vega UTM",
+        "Uncrewed traffic management"
+      ],
+      [
+        "Orion DFM",
+        "Drone fleet management"
+      ],
+      [
+        "Andromeda",
+        "Airspace monitoring and counter-drone coordination"
+      ]
+    ],
+    "funding": "US$30M total · company announcement, Oct 2026",
+    "employees": "51–200 · company profile range",
+    "investors": [
+      "EDGE Group",
+      "STEP",
+      "Protego Ventures",
+      "Kinetica"
+    ],
+    "founders": [
+      "Alon Abelson",
+      "Ido Yahalomi"
+    ],
+    "customers": [
+      "Israel Government Companies Authority (Vega initiative)",
+      "Israel Innovation Authority (Vega initiative)"
+    ],
+    "coverage": "The Payload · October 21 working edition, financing and Andromeda",
+    "sources": [
+      [
+        "Funding and products",
+        "https://www.prnewswire.com/il/news-releases/high-lander-announces-it-has-reached-a-total-of-30-million-in-funding-302912395.html"
+      ],
+      [
+        "Founding team",
+        "https://innovationisrael.org.il/en/importWinner/515916930/"
+      ],
+      [
+        "HQ and size",
+        "https://www.linkedin.com/company/high-lander"
+      ],
+      [
+        "Named public-sector users",
+        "https://www.highlander.io/post/high-lander-selected-to-provide-utm-services-across-israel-for-eighteen-month-period"
+      ]
+    ]
+  },
+  {
+    "id": "elsight",
+    "name": "Elsight",
+    "country": "IL",
+    "origin": "Israel · 2009",
+    "category": "Other Defense Tech",
+    "ownership": "Public · ASX: ELS",
+    "summary": "Builds multi-link communications for drones and other uncrewed systems.",
+    "website": "https://www.elsight.com/",
+    "offices": [
+      [
+        "Israel operating office",
+        "IL",
+        "Ramat Gan, Israel",
+        "13 Menachem Begin Boulevard, Icon Tower, 15th floor"
+      ]
+    ],
+    "products": [
+      [
+        "Halo",
+        "Connectivity platform that combines available cellular, satellite and radio links"
+      ]
+    ],
+    "funding": "US$60.52M across reported financings · Finder estimate",
+    "employees": "11–50 · Finder directory range",
+    "investors": [],
+    "founders": [
+      "Nir Gabay",
+      "Roee Kashi"
+    ],
+    "customers": [
+      "DroneUp (named customer in annual report)"
+    ],
+    "coverage": "The Payload · Starshield edition and October 18 working edition, resilient connectivity",
+    "sources": [
+      [
+        "Public Israel office",
+        "https://www.elsight.com/contact-us/"
+      ],
+      [
+        "Products and listing",
+        "https://www.elsight.com/about-us/"
+      ],
+      [
+        "Founders",
+        "https://en.globes.co.il/en/article-we-had-the-right-product-at-the-right-time-1001532940"
+      ],
+      [
+        "Funding and size",
+        "https://finder.startupnationcentral.org/company_page/elsight?section=news"
+      ],
+      [
+        "DroneUp relationship",
+        "https://www.elsight.com/wp-content/uploads/2025/02/Appendix-4E-and-Annual-Report-2024.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "kela",
+    "name": "Kela Technologies",
+    "country": "IL",
+    "origin": "Israel · 2024",
+    "category": "Other Defense Tech",
+    "ownership": "Private",
+    "summary": "Builds command-and-control software that integrates sensors and other defense systems.",
+    "website": "https://kelasys.com/",
+    "offices": [
+      [
+        "Corporate HQ",
+        "IL",
+        "Tel Aviv, Israel"
+      ]
+    ],
+    "products": [
+      [
+        "Kela command-and-control platform",
+        "Integrates defense sensors, software and systems"
+      ]
+    ],
+    "funding": "About US$300M reported · May 2026",
+    "employees": "About 150 reported · May 2026",
+    "investors": [
+      "Stripes",
+      "D1 Capital Partners",
+      "Sequoia Capital",
+      "Lux Capital"
+    ],
+    "founders": [
+      "Alon Dror",
+      "Hamutal Meridor",
+      "Omer Bar-Ilan",
+      "Jason Manne"
+    ],
+    "customers": [
+      "Israel Ministry of Defense (Digital Bat tender)"
+    ],
+    "coverage": "The Payload · IDF FPV grounding draft, Digital Bat procurement",
+    "sources": [
+      [
+        "HQ",
+        "https://app.dealroom.co/companies/kela_technologies"
+      ],
+      [
+        "Funding and workforce",
+        "https://en.globes.co.il/en/article-israeli-defense-tech-co-kela-raising-200m-at-12b-valuation-1001542138"
+      ],
+      [
+        "Founding team",
+        "https://finder.startupnationcentral.org/company_page/kela-ai-systems?section=team"
+      ],
+      [
+        "Named government tender",
+        "https://www.calcalistech.com/ctechnews/article/byjpzaxnfe"
+      ]
+    ]
+  },
+  {
+    "id": "aitan",
+    "name": "AITAN (formerly eyesAtop)",
+    "country": "IL",
+    "origin": "Israel · 2015 as eyesAtop",
+    "category": "Drones",
+    "ownership": "Private",
+    "summary": "Builds autonomy and control software for drones and other robotic platforms.",
+    "website": "https://aitansystems.com/",
+    "offices": [
+      [
+        "Home office city reported for eyesAtop",
+        "IL",
+        "Tirat Carmel, Israel"
+      ]
+    ],
+    "products": [
+      [
+        "Ronen",
+        "Drone operating system associated with eyesAtop"
+      ]
+    ],
+    "funding": "US$41M announced round · Sep 2026",
+    "employees": "7 at the time of the eyesAtop acquisition, per Ynet · current count unverified",
+    "investors": [
+      "Deep33",
+      "Dell Technologies Capital",
+      "Gokul Rajaram"
+    ],
+    "founders": [
+      "Ido Yitzhak (eyesAtop)",
+      "Yinon Atzmon (eyesAtop)",
+      "Einav Harazi (eyesAtop)",
+      "Ben Barkai (eyesAtop)"
+    ],
+    "customers": [
+      "Israel Defense Forces (reported user)",
+      "Israel Ministry of Defense (Digital Bat tender)"
+    ],
+    "coverage": "The Payload · IDF FPV grounding draft, covered under the eyesAtop name",
+    "sources": [
+      [
+        "Rebrand and funding",
+        "https://www.calcalistech.com/ctechnews/article/b1dz1kbdme"
+      ],
+      [
+        "Predecessor founders, location and Ronen",
+        "https://www.ynetnews.com/tech-and-digital/article/hja7h3dufg"
+      ],
+      [
+        "Founding year",
+        "https://finder.startupnationcentral.org/company_page/eyesatop?section=financials"
+      ],
+      [
+        "Named government tender",
+        "https://www.calcalistech.com/ctechnews/article/byjpzaxnfe"
+      ],
+      [
+        "Official site",
+        "https://aitansystems.com/"
+      ]
+    ]
+  },
+  {
+    "id": "airobotics",
+    "name": "Airobotics",
+    "country": "IL",
+    "origin": "Israel · 2014",
+    "category": "Drones",
+    "ownership": "Private subsidiary · Ondas",
+    "summary": "Builds autonomous drone-in-a-box systems and counter-drone interceptors.",
+    "website": "https://www.airoboticsdrones.com/",
+    "offices": [
+      [
+        "Israel office and R&D",
+        "IL",
+        "Petah Tikva, Israel",
+        "8 Modi’in Street"
+      ]
+    ],
+    "products": [
+      [
+        "Optimus",
+        "Autonomous drone-in-a-box system"
+      ],
+      [
+        "Iron Drone",
+        "Autonomous counter-drone interceptor"
+      ]
+    ],
+    "funding": "US$101M reported total as of Oct 2018 · historical figure",
+    "employees": "230+ reported in Oct 2018 · current count unverified",
+    "investors": [
+      "Pavilion Capital",
+      "OurCrowd",
+      "BlueRun Ventures",
+      "CRV"
+    ],
+    "founders": [
+      "Ran Krauss",
+      "Meir Kliner"
+    ],
+    "customers": [
+      "Intel (first commercial customer, per Airobotics)"
+    ],
+    "coverage": "The Payload · IDF FPV grounding draft, Airobotics/Ondas",
+    "sources": [
+      [
+        "Products, ownership and Intel",
+        "https://www.airoboticsdrones.com/company/"
+      ],
+      [
+        "Founders and investors",
+        "https://finder.startupnationcentral.org/company_page/airobotics?section=financials"
+      ],
+      [
+        "Historical funding and workforce",
+        "https://www.calcalistech.com/ctech/articles/0,7340,L-3748764,00.html"
+      ],
+      [
+        "Public Israel office",
+        "https://ir.ondas.com/annual-reports/content/0001213900-25-022968/ea0232702-10k_ondashold.htm"
+      ]
+    ]
+  },
+  {
+    "id": "skyfall",
+    "name": "SkyFall",
+    "country": "UA",
+    "origin": "Ukraine",
+    "category": "Drones",
+    "ownership": "Private",
+    "summary": "Builds Ukrainian drone platforms for interception, aerial support and other missions.",
+    "website": "https://skyfall.ua/",
+    "offices": [
+      [
+        "HQ city (public profile)",
+        "UA",
+        "Kyiv, Ukraine"
+      ]
+    ],
+    "products": [
+      [
+        "P1-SUN",
+        "Interceptor drone family"
+      ],
+      [
+        "Vampire",
+        "Heavy multirotor platform"
+      ],
+      [
+        "Shrike",
+        "FPV drone family"
+      ]
+    ],
+    "funding": null,
+    "employees": null,
+    "investors": [],
+    "founders": [],
+    "customers": [
+      "Japan Ministry of Defense (reported interceptor contract, Oct 2026)",
+      "Ukrainian forces (named recipient of announced Shrike deliveries)"
+    ],
+    "coverage": "The Payload · October 11 working edition, SkyFall interceptor exports",
+    "sources": [
+      [
+        "Company profile and HQ city",
+        "https://partners.dealroom.co/companies/skyfall_industries"
+      ],
+      [
+        "Japan contract and product line",
+        "https://www.pravda.com.ua/eng/news/2026/10/10/8057335/"
+      ],
+      [
+        "Ukrainian recipients",
+        "https://auterion.com/auterion-and-skyfall-to-ship-50000-shrike-strike-drones-to-ukraines-front-lines/"
+      ]
+    ]
+  },
+  {
+    "id": "buntar",
+    "name": "Buntar Aerospace",
+    "country": "UA",
+    "origin": "Ukraine · 2023",
+    "category": "Drones",
+    "ownership": "Private",
+    "summary": "Develops reconnaissance aircraft and software for planning and managing drone missions.",
+    "website": "https://buntar.com/en/",
+    "offices": [
+      [
+        "Home base (public reporting)",
+        "UA",
+        "Kyiv, Ukraine"
+      ]
+    ],
+    "products": [
+      [
+        "Buntar-3",
+        "Reconnaissance aircraft"
+      ],
+      [
+        "Buntar Copilot",
+        "Mission and flight-management software"
+      ]
+    ],
+    "funding": "US$30M total · company announcement, Oct 2026",
+    "employees": "11–50 · company profile range",
+    "investors": [
+      "Freedom Fund VC",
+      "Gardar Venture Capital",
+      "Iron Wolf Capital",
+      "Autonomy Capital",
+      "Axon Enterprise"
+    ],
+    "founders": [
+      "Ivan Kaunov",
+      "Bohdan Sas"
+    ],
+    "customers": [
+      "Ukrainian military units (reported users, units unnamed)"
+    ],
+    "coverage": "The Payload · October 11 working edition, Buntar financing",
+    "sources": [
+      [
+        "Product portfolio",
+        "https://buntar.com/en/"
+      ],
+      [
+        "Capital raised and investors",
+        "https://labs.sigma.software/buntar-aerospace-raises-16m-to-scale-defense-autonomy/"
+      ],
+      [
+        "Founders",
+        "https://www.estvca.ee/news/iron-wolf-capital-joins-buntar-aerospace-s-usd16-million-funding-round"
+      ],
+      [
+        "Public company size",
+        "https://www.linkedin.com/company/buntar-aerospace"
+      ],
+      [
+        "Ukrainian operations and users",
+        "https://www.axios.com/2026/10/07/ukrainian-defense-tech-buntar-drone"
+      ],
+      [
+        "Reported home city",
+        "https://craft.co/buntar-aerospace"
+      ]
+    ]
+  },
+  {
+    "id": "sine",
+    "name": "Sine Engineering",
+    "country": "UA",
+    "origin": "Ukraine · project started in 2022",
+    "category": "Other Defense Tech",
+    "ownership": "Private",
+    "summary": "Builds communication and positioning components for drones.",
+    "website": "https://www.sine.engineering/",
+    "offices": [
+      [
+        "Home HQ",
+        "UA",
+        "Lviv, Ukraine"
+      ]
+    ],
+    "products": [
+      [
+        "Resilient UAV data links",
+        "Radio communications for uncrewed systems"
+      ],
+      [
+        "GNSS-independent positioning",
+        "Positioning technology for drones"
+      ]
+    ],
+    "funding": "U.S.–Ukraine Reconstruction Investment Fund investment announced Mar 2026 · amount unverified",
+    "employees": "450+ · transaction counsel, Mar 2026",
+    "investors": [
+      "U.S.–Ukraine Reconstruction Investment Fund"
+    ],
+    "founders": [
+      "Andriy Chulyk",
+      "Ostap Ferensovych",
+      "Bohdan Tymkiv"
+    ],
+    "customers": [],
+    "coverage": "The Payload · Starshield edition discussion, Ukraine Already Making Moves",
+    "sources": [
+      [
+        "Product platform and origins",
+        "https://www.sine.engineering/"
+      ],
+      [
+        "Lviv, investment and workforce",
+        "https://aequo.ua/en/news/sine-engineering-receives-investment-from-u-s-ukraine-reconstruction-fund"
+      ],
+      [
+        "Founders",
+        "https://techcrunch.com/2025/02/24/three-years-on-europe-looks-to-ukraine-for-the-future-of-defense-tech/"
+      ]
+    ]
+  },
+  {
+    "id": "himera",
+    "name": "HIMERA",
+    "country": "UA",
+    "origin": "Ukraine · 2022",
+    "category": "Other Defense Tech",
+    "ownership": "Private",
+    "summary": "Builds secure tactical communications equipment for defense and emergency teams.",
+    "website": "https://himeratech.com/en",
+    "offices": [
+      [
+        "Home HQ",
+        "UA",
+        "Kyiv, Ukraine"
+      ]
+    ],
+    "products": [
+      [
+        "HIMERA G1",
+        "Handheld tactical radio"
+      ],
+      [
+        "HIMERA G1 PRO",
+        "Updated handheld radio"
+      ]
+    ],
+    "funding": "US$2.5M+ seed round · Dec 2025",
+    "employees": "55 · PwC cohort profile",
+    "investors": [
+      "Green Flag Ventures",
+      "Nezlamni",
+      "United Angels Network",
+      "Freedom Fund",
+      "Bulava Capital"
+    ],
+    "founders": [
+      "Mykhailo (Misha) Rudominsky",
+      "Oleksiy Oliynyk"
+    ],
+    "customers": [
+      "Ukrainian Defense Forces (reported users)",
+      "U.S. Air Force (reported initial radio sale)"
+    ],
+    "coverage": "The Payload · Starshield edition discussion, Ukraine Already Making Moves",
+    "sources": [
+      [
+        "Products and Ukrainian users",
+        "https://himeratech.com/en/about-us"
+      ],
+      [
+        "Funding and investors",
+        "https://digitalstate.gov.ua/news/tech/himera-raises-25m-to-scale-secure-communications-for-defense-use"
+      ],
+      [
+        "Founders and U.S. Air Force",
+        "https://dev.ua/en/news/blits-interviu-iz-spivzasnovnykom-himera"
+      ],
+      [
+        "Kyiv HQ and employee count",
+        "https://www.pwc.be/en/fy25/documents/pwc-scale-defence-and-resilience-tech-programme-cohort-book.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "swarmer",
+    "name": "Swarmer",
+    "country": "UA",
+    "origin": "Ukrainian origins · 2023; U.S. incorporation",
+    "category": "Other Defense Tech",
+    "ownership": "Public · Nasdaq: SWMR",
+    "summary": "Builds software for coordinating multiple uncrewed systems.",
+    "website": "https://swarmer.com/",
+    "offices": [
+      [
+        "Home engineering office",
+        "UA",
+        "Kyiv, Ukraine"
+      ],
+      [
+        "Corporate HQ and U.S. sales",
+        "US",
+        "Austin, Texas, US",
+        "4515 Seton Center Parkway, Suite 330"
+      ],
+      [
+        "Engineering office",
+        "PL",
+        "Warsaw, Poland"
+      ]
+    ],
+    "products": [
+      [
+        "Styx",
+        "Multi-drone coordination software"
+      ]
+    ],
+    "funding": "US$15M Series A (2025) plus US$17.25M gross IPO (2026) · disclosed events",
+    "employees": "62 full-time and 59 contractors · Jun 2026 filing",
+    "investors": [
+      "Broadband Capital Investments",
+      "R-G.AI",
+      "D3 Ventures",
+      "Green Flag Ventures",
+      "Radius Capital",
+      "Network VC"
+    ],
+    "founders": [
+      "Serhii Kupriienko",
+      "Alex Fink"
+    ],
+    "customers": [
+      "Ukrainian military units (company-reported users, units unnamed)"
+    ],
+    "coverage": "The Payload · Starshield edition discussion, Ukraine Already Making Moves",
+    "sources": [
+      [
+        "Founders and users",
+        "https://swarmer.com/about/"
+      ],
+      [
+        "Offices, product and employees",
+        "https://www.sec.gov/Archives/edgar/data/2092574/000110465926072392/tmb-20260331xs1.htm"
+      ],
+      [
+        "Series A and investors",
+        "https://swarmer.com/news/swarmer-ukraines-leading-drone-autonomy-and-swarming-company-announces-15m-series-a-led-by-us-investors/"
+      ],
+      [
+        "IPO close",
+        "https://www.sec.gov/Archives/edgar/data/2092574/000110465926031244/tm2529424d17_ex99-2.htm"
+      ]
+    ]
+  }
+]</script>
+<script>
+"use strict";
+const seed = JSON.parse(document.querySelector("#seed").textContent);
+const storageKey = "payload-defense-tracker-v1";
+const $ = id => document.getElementById(id);
+const names = new Intl.DisplayNames(["en"], {type:"region"});
+let added = [];
+try {
+  const saved = JSON.parse(localStorage.getItem(storageKey) || "[]");
+  if (Array.isArray(saved)) added = saved.filter(item => item && typeof item.name === "string" && typeof item.id === "string");
+} catch {}
+const companies = () => [...seed, ...added];
+const html = value => String(value ?? "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+function safeUrl(value) {
+  try { const url = new URL(value); return /^(https?):$/.test(url.protocol) ? url.href : ""; }
+  catch { return ""; }
+}
+function flag(code) {
+  if (!/^[A-Z]{2}$/.test(code || "")) return "";
+  return String.fromCodePoint(...[...code].map(c => 127397 + c.charCodeAt(0)));
+}
+function place(code, label) {
+  return code ? `<span class="flag" aria-hidden="true">${flag(code)}</span> ${html(label || names.of(code))}` : html(label);
+}
+function matches(company) {
+  const haystack = [company.name, company.origin, company.summary, names.of(company.country), ...(company.offices || []).map(o => o[2]), ...(company.products || []).flat()].join(" ").toLowerCase();
+  return (!$("country").value || company.country === $("country").value) &&
+    (!$("category").value || company.category === $("category").value) &&
+    $("search").value.trim().toLowerCase().split(/\s+/).every(word => haystack.includes(word));
+}
+function renderDirectory() {
+  const results = companies().filter(matches);
+  $("count").textContent = `${results.length} of ${companies().length} companies`;
+  $("cards").innerHTML = results.length ? results.map(c => `
+    <button class="card" type="button" data-company="${html(c.id)}">
+      <span class="card-top"><span class="card-name">${html(c.name)}</span><span class="arrow" aria-hidden="true">↗</span></span>
+      <span class="tagrow"><span class="tag accent">${place(c.country)}</span><span class="tag">${html(c.category)}</span></span>
+      <span class="summary">${html(c.summary)}</span>
+    </button>`).join("") : '<div class="empty">No companies match those filters.</div>';
+}
+const unknown = "No verified public figure";
+const list = (items, fallback = "No named entries verified") => Array.isArray(items) && items.length ? items.map(html).join("<br>") : html(fallback);
+const external = (url, label) => `<a href="${html(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${html(label)} ↗</a>`;
+function mappableOffices(companies) {
+  return companies.flatMap(company => (company.offices || [])
+    .filter(([,code,city]) => code && city && city !== names.of(code))
+    .map(office => ({company,office})));
+}
+function mapPanel(companies) {
+  const offices = mappableOffices(companies);
+  if (!offices.length) return '<div class="tile small">Office locale obscured. A city-level office location could not be verified.</div>';
+  const home = offices.findIndex(({company,office}) => company.id === companies[0].id && office[1] === company.country);
+  return `<details id="location-map"><summary>Open Location Map</summary>
+    <div class="map-controls">
+    <label>Office location<select id="map-office" class="control">${offices.map(({company,office:[role,code,city]}, i) => `<option value="${i}" ${i === Math.max(0,home) ? "selected" : ""}>${flag(code)} ${companies.length > 1 ? html(company.name) + " · " : ""}${html(role)} · ${html(city)}</option>`).join("")}</select></label>
+    <p class="small map-label" id="map-label"></p>
+    <iframe id="map-frame" class="map-frame" title="Company office location map" loading="lazy" referrerpolicy="no-referrer"></iframe>
+    <p class="small map-label"><a id="map-link" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a></p>
+    </div></details>`;
+}
+function activateMap(companies) {
+  const panel = $("location-map");
+  if (!panel) return;
+  const offices = mappableOffices(companies);
+  function loadMap() {
+    if (!panel.open) return;
+    const {office:[,,city,address]} = offices[Number($("map-office").value)];
+    const location = [address,city].filter(Boolean).join(", ");
+    const query = encodeURIComponent(location);
+    $("map-label").textContent = address ? `Public office address: ${location}` : `Office locale obscured. Pin shows ${city} at city level.`;
+    const src = `https://maps.google.com/maps?q=${query}&z=${address ? 16 : 11}&output=embed`;
+    if ($("map-frame").getAttribute("src") !== src) $("map-frame").src = src;
+    $("map-link").href = `https://www.google.com/maps/search/?api=1&query=${query}`;
+  }
+  panel.addEventListener("toggle",loadMap);
+  $("map-office").addEventListener("change",loadMap);
+}
+const stat = (label, value) => `<div class="tile"><dt>${html(label)}</dt><dd>${value}</dd></div>`;
+function renderProfile(c) {
+  const site = safeUrl(c.website);
+  const initials = c.name.split(/[\s-]+/).slice(0,2).map(part => part[0]).join("").toUpperCase();
+  const sources = (c.sources || []).filter(s => safeUrl(s[1]));
+  const logo = safeUrl(c.logo);
+  $("profile").innerHTML = `
+  <button class="back" type="button">← Directory</button>
+  <article class="profile-card">
+    <div class="identity"><span class="monogram" aria-hidden="true">${logo ? `<img src="${html(logo)}" alt="" style="width:85px;height:auto">` : html(initials)}</span>
+    <div><h1 tabindex="-1">${html(c.name)}</h1><div class="tagrow"><span class="tag accent">${html(c.category)}</span><span class="tag">${html(c.ownership || "Ownership unverified")}</span></div></div></div>
+    <p class="overview">${html(c.summary)}</p>
+    <section aria-label="Locations"><h2 class="section-label">Location</h2><div class="stack">
+      <div class="tile row"><strong>Founded in</strong><span>${place(c.country, c.origin || names.of(c.country))}</span></div>
+      ${(c.offices?.length ? c.offices.map(([role, code, label]) => `<div class="tile row"><strong>${html(role)}</strong><span>${place(code,label)}</span></div>`).join("") : '<div class="tile row"><strong>Headquarters</strong><span>Unverified</span></div>')}
+    </div>${mapPanel([c])}</section>
+    <section aria-label="Products"><h2 class="section-label">Products</h2><div class="stack">
+      ${c.products?.length ? c.products.map(([name, description]) => `<div class="tile"><strong>${html(name)}</strong><div class="small">${html(description)}</div></div>`).join("") : '<div class="tile small">No named products verified</div>'}
+    </div></section>
+    <section aria-label="Company statistics"><h2 class="section-label">Company Stats</h2><dl class="detail-grid">
+      ${stat("Money Raised", html(c.funding || unknown))}
+      ${stat("Employees", html(c.employees || unknown))}
+      ${stat("Known Investors", list(c.investors))}
+      ${stat("Founders", list(c.founders))}
+      ${stat("Named Customers / Users", list(c.customers))}
+    </dl></section>
+    <details><summary>Sources &amp; Coverage</summary><p>${html(c.coverage || "Added by you")}</p>
+      ${sources.length ? `<ul>${sources.map(([label, url]) => `<li><a href="${html(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${html(label)} ↗</a></li>`).join("")}</ul>` : ""}
+    </details>
+    <div class="profile-actions">
+      ${site ? `<a class="website" href="${html(site)}" target="_blank" rel="noopener noreferrer">Company Website ↗</a>` : ""}
+      <button class="primary compare-trigger" type="button">COMPARE</button>
+    </div>
+  </article>`;
+  activateMap([c]);
+  const img = $("profile").querySelector("img");
+  if (img) img.addEventListener("error", () => { img.parentElement.textContent = initials; }, {once:true});
+}
+const dfPair = ["d-fend","parazero"];
+const productComparison = [
+  ["Product","EnforceAir PLUS","TillOnAIR (DefendAir family)"],
+  ["Buyer need","Detect, track and mitigate unauthorized drones at protected sites","Detect, track and mitigate unauthorized drones at protected sites"],
+  ["Detection","RF sensing and integrated radar","Proprietary detection and target tracking"],
+  ["Mitigation","RF cyber takeover on supported drones, with optional jamming","Reusable interceptor drones with net capture"],
+  ["Proof to request","Supported drone models and a site-specific controlled landing demonstration","Site-specific evidence of successful net interception and recovery"]
+];
+function renderComparison(left,right) {
+  const options = selected => companies().map(c => `<option value="${html(c.id)}" ${c.id === selected ? "selected" : ""}>${html(c.name)}</option>`).join("");
+  const curated = [left.id,right.id].every(id => dfPair.includes(id));
+  const base = [
+    ["Origin",`${flag(left.country)} ${left.origin}`,`${flag(right.country)} ${right.origin}`],
+    ["Ownership",left.ownership,right.ownership],
+    ["Office locations",left.offices?.map(o => `${flag(o[1])} ${o[0]}: ${o[2]}`).join(" · "),right.offices?.map(o => `${flag(o[1])} ${o[0]}: ${o[2]}`).join(" · ")]
+  ];
+  const products = curated ? productComparison.map(([label,a,b]) => left.id === dfPair[0] ? [label,a,b] : [label,b,a])
+    : [["What it builds",left.summary,right.summary],["Products",left.products?.map(p=>p[0]).join(", "),right.products?.map(p=>p[0]).join(", ")]];
+  $("comparison").innerHTML = `
+  <button class="back" type="button" data-back="${html(left.id)}">← ${html(left.name)}</button>
+  <article class="profile-card"><div class="eyebrow">Company Comparison</div><h1 tabindex="-1">Compare Companies</h1>
+    <div class="detail-grid">
+      <label>First company<select class="control" id="compare-left">${options(left.id)}</select></label>
+      <label>Second company<select class="control" id="compare-right">${options(right.id)}</select></label>
+    </div>
+    ${curated ? '<p>Both products compete for the same detect-to-mitigate counter-drone use case. Their mitigation methods differ. This comparison uses published specifications.</p>' : ''}
+    <table class="compare-table"><caption class="sr">Side-by-side company comparison</caption><thead><tr><th scope="col">Field</th><th scope="col"><a href="#${html(left.id)}">${html(left.name)}</a></th><th scope="col"><a href="#${html(right.id)}">${html(right.name)}</a></th></tr></thead>
+    <tbody>${[...products,...base,["Money raised",left.funding,right.funding],["Employees",left.employees,right.employees],["Known investors",left.investors?.join(" · "),right.investors?.join(" · ")],["Founders",left.founders?.join(" · "),right.founders?.join(" · ")],["Named customers / users",left.customers?.join(" · "),right.customers?.join(" · ")]].map(([label,a,b])=>`<tr><th scope="row">${html(label)}</th><td>${html(a || "Unverified")}</td><td>${html(b || "Unverified")}</td></tr>`).join("")}</tbody></table>
+    ${curated ? `<div class="small">${external("https://d-fendsolutions.com/enforceair/","EnforceAir specifications")} · ${external("https://parazero.com/2026/10/26/parazero-launches-tillonair-an-autonomous-detect-to-defeat-c-uas-system-with-reusable-interceptors/","TillOnAIR launch")} · ${external("https://www.sec.gov/Archives/edgar/data/1916241/000121390026034376/ea0282637-20f_parazero.htm","ParaZero SEC filing")}</div>` : ""}
+    <section aria-label="Comparison location map"><h2 class="section-label">Location Map</h2>${mapPanel([left,right])}</section>
+  </article>`;
+  activateMap([left,right]);
+}
+let activeId = "";
+function route() {
+  const [first,second,third] = location.hash.slice(1).split("/");
+  const left = first === "compare" && companies().find(c => c.id === second);
+  const right = first === "compare" && companies().find(c => c.id === third);
+  const comparing = Boolean(left && right && left.id !== right.id);
+  const next = companies().find(c => c.id === first);
+  $("directory").hidden = Boolean(next || comparing);
+  $("profile").hidden = !next;
+  $("comparison").hidden = !comparing;
+  if (!next) $("profile").innerHTML = "";
+  if (!comparing) $("comparison").innerHTML = "";
+  if (comparing) {
+    renderComparison(left,right);
+    $("comparison").querySelector("h1").focus();
+    window.scrollTo(0,0);
+    return;
+  }
+  if (next) {
+    renderProfile(next);
+    $("profile").querySelector("h1").focus();
+    window.scrollTo(0,0);
+  } else if (activeId) {
+    [...$("cards").querySelectorAll("[data-company]")].find(el => el.dataset.company === activeId)?.focus();
+  }
+  activeId = next?.id || "";
+}
+$("cards").addEventListener("click", event => {
+  const button = event.target.closest("[data-company]");
+  if (button) location.hash = button.dataset.company;
+});
+$("profile").addEventListener("click", event => {
+  if (event.target.closest(".back")) location.hash = "";
+  if (event.target.closest(".compare-trigger") && activeId) location.hash = `compare/${activeId}/${activeId === "d-fend" ? "parazero" : "d-fend"}`;
+});
+$("comparison").addEventListener("click",event => {
+  const back = event.target.closest("[data-back]");
+  if (back) location.hash = back.dataset.back;
+});
+$("comparison").addEventListener("change", event => {
+  if (!event.target.matches("#compare-left, #compare-right")) return;
+  const left = $("compare-left").value;
+  const right = $("compare-right").value;
+  if (left !== right) location.hash = `compare/${left}/${right}`;
+  else event.target.value = location.hash.slice(1).split("/")[event.target.id === "compare-left" ? 1 : 2];
+});
+["country","category"].forEach(id => $(id).addEventListener("change",renderDirectory));
+$("search").addEventListener("input",renderDirectory);
+$("add").addEventListener("click",() => $("editor").showModal());
+$("cancel").addEventListener("click",() => $("editor").close());
+$("form").addEventListener("submit",event => {
+  event.preventDefault();
+  const data = Object.fromEntries(new FormData(event.currentTarget));
+  const name = data.name.trim();
+  const summary = data.summary.trim();
+  const website = safeUrl(data.website);
+  if (!name || !summary || !website) {
+    $("form-message").textContent = "Enter a name, description, and valid HTTP or HTTPS website.";
+    return;
+  }
+  if (companies().some(c => c.name.toLowerCase() === name.toLowerCase() && c.country === data.country)) {
+    $("form-message").textContent = "A company with that name and origin already exists.";
+    return;
+  }
+  const id = "local-" + (globalThis.crypto?.randomUUID?.() || Date.now().toString(36));
+  const origin = [names.of(data.country),data.origin.trim()].filter(Boolean).join(" · ");
+  const entry = {id,name,country:data.country,ownership:data.ownership,category:data.category,origin,summary,website};
+  try { localStorage.setItem(storageKey, JSON.stringify([...added,entry])); }
+  catch { $("form-message").textContent = "This browser blocked local storage. The entry could not be saved."; return; }
+  added.push(entry);
+  event.currentTarget.reset();
+  $("form-message").textContent = "";
+  $("editor").close();
+  $("country").value = "";
+  $("category").value = "";
+  $("search").value = "";
+  renderDirectory();
+  location.hash = id;
+});
+window.addEventListener("hashchange",route);
+renderDirectory();
+route();
+</script>
+</body>
+</html>
