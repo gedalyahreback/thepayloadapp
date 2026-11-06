@@ -44,3 +44,18 @@ You can continue browsing as a guest.
 The directory and comparisons work offline. Maps, linked sources, website
 imports, and sign-in use the internet. Companies and offerings you add stay
 on the device where you saved them.
+
+## Stocks & Markets
+
+Open **Stocks & Markets** to research publicly listed defense, UAV,
+counter-UAV, and cybersecurity comparables. Choose a ticker for an external
+TradingView chart or open the market chart in a browser. Charts require an
+internet connection and may use delayed prices; The Payload does not provide
+investment advice or claim the external quote is independently verified.
+
+The default watchlist includes selected listed peers beyond the startup
+directory. Only directory profiles with explicitly verified public listings
+receive stock shortcuts. ParaZero's profile links to NASDAQ:PRZO. Private
+companies do not receive stock prices. Use **Add a verified listed ticker**
+to save additional market symbols on this device (exchange-qualified, such
+as NASDAQ:AVAV). The symbol's ownership must be checked before reliance.
