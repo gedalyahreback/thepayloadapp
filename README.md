@@ -59,3 +59,11 @@ receive stock shortcuts. ParaZero's profile links to NASDAQ:PRZO. Private
 companies do not receive stock prices. Use **Add a verified listed ticker**
 to save additional market symbols on this device (exchange-qualified, such
 as NASDAQ:AVAV). The symbol's ownership must be checked before reliance.
+
+## Corporate Relationships and Subsidiary Discovery
+
+Every company profile has a **Corporate Relationships** section with its documented parent company and direct subsidiaries or operating companies. Links open the corresponding directory profiles. "No parent verified" and "None documented" mean the directory has no verified relationship on record, not that the company is legally independent.
+
+**Required research rule when adding a subsidiary:** (1) identify and add or update its ultimate parent company and any intermediate operating group; (2) identify and add the parent's other publicly documented relevant subsidiaries and operating companies; (3) connect all profiles using `parentCompanyId` (a company profile's `id`). Follow the chain upward recursively and check for existing profiles before creating duplicates. Cite official company pages and filings, distinguish legal entities from operating brands, and never infer ownership solely from a partnership or reseller agreement. When corporate structures are unclear, leave relationships unverified instead of inventing links.
+
+The seeded directory currently covers the Ondas group operating companies listed on Ondas' company overview, plus Ondas Networks and Ondas Capital. The SEC Exhibit 21.1 also lists regional and legal subsidiaries; those are not automatically separate commercial profiles. User-added entries remain device-local until a separate synchronization workflow is implemented.
