@@ -9,7 +9,8 @@ and services side by side.
 - Open **Companies** and search by company, offering, or location.
 - Type a founding country or its two-letter code, then narrow your search by
   sector. Satellite sectors cover spacecraft and payloads, launch and
-  logistics, connectivity and ground systems, and Earth observation.
+  logistics, connectivity and ground systems, and Earth observation. Choose
+  **Run Search** to apply your filters.
 - Use **Sort companies** to rank reported funding, employee counts, or the
   number of named investors, founders, and customers. Funding is grouped by
   currency. Unknown figures appear last.
@@ -29,11 +30,10 @@ give it a category. The offering will appear in the catalog on your device.
 
 ## Add a Company
 
-1. Choose **Add Company**, then enter the details or paste a website or
-   LinkedIn URL and choose **Infer Details**.
-2. Review the suggestions and add any missing information before saving.
-3. In the LinkedIn Android app, you can also share a link through the Android
-   share menu and choose **The Payload** to open a draft.
+1. Share a company website or LinkedIn link through the Android share menu
+   and choose **The Payload** to open a draft.
+2. Choose **Infer Details** if prompted, then review the suggestions and add
+   any missing information before saving.
 
 ## Sign In and Use the App Offline
 
