@@ -16,7 +16,11 @@ The self-contained HTML at
 for guest browsing and comparison. Update the SHA-256 hash in the Content
 Security Policy after changing its inline script.
 
-## Enable LinkedIn Sign-In
+## Enable Accounts
+
+Configure the Supabase project URL and publishable key below for both methods.
+
+### LinkedIn
 
 1. Create a LinkedIn developer app and enable **Sign In with LinkedIn
    using OpenID Connect**.
@@ -27,22 +31,32 @@ Security Policy after changing its inline script.
 3. Add `com.thetechnoscribe.thepayload://oauth/linkedin/*` to the Supabase Auth
    redirect allowlist. The final path segment is a random value for each
    sign-in attempt.
-4. Add the two public settings below to your user-level
-   `~/.gradle/gradle.properties` and rebuild.
+### Email
 
-   ```properties
-   PAYLOAD_SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
-   PAYLOAD_SUPABASE_PUBLISHABLE_KEY=sb_publishable_YOUR_KEY
-   ```
+1. In Supabase Authentication, enable email sign-in and allow new user signups.
+2. Include the one-time code using `{{ .Token }}` in the Confirm signup
+   and Magic Link templates. Tell recipients to enter the code in The Payload.
+3. Configure custom SMTP to send codes to people outside the Supabase project team.
 
-The app uses authorization code exchange with PKCE. It opens the system
-browser for authentication, checks the callback against the current attempt,
-and keeps the resulting access token in native memory. Closing the app
-process or reaching the token expiry ends the session. Sign-in is optional,
-and locally saved entries stay local.
+### Android build settings
 
-- [LinkedIn OIDC provider setup](https://supabase.com/docs/guides/auth/social-sign-in/auth-linkedin)
+Add these public settings to your user-level `~/.gradle/gradle.properties`
+and rebuild.
+
+```properties
+PAYLOAD_SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+PAYLOAD_SUPABASE_PUBLISHABLE_KEY=sb_publishable_YOUR_KEY
+```
+
+Check that a new email can verify its first code and sign in again after
+sign-out. Repeat with a LinkedIn account and confirm the browser returns to
+the app. Sessions expire and are held in native memory until the app process
+closes. Companies and offerings remain device-local.
+
+- [LinkedIn OIDC provider setup](https://supabase.com/docs/guides/auth/social-login/auth-linkedin)
 - [Supabase redirect allowlist](https://supabase.com/docs/guides/auth/redirect-urls)
+- [Passwordless email codes](https://supabase.com/docs/guides/auth/auth-email-passwordless)
+- [Custom SMTP](https://supabase.com/docs/guides/auth/auth-smtp)
 
 ## Deliver Updates Automatically
 

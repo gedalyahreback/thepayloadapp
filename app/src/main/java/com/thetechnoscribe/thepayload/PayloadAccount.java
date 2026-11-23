@@ -25,7 +25,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
 
-final class LinkedInAccount {
+final class PayloadAccount {
     static final String SCHEME = "com.thetechnoscribe.thepayload";
     private static final String PROVIDER = "linkedin_oidc";
     private static final long FLOW_LIFETIME = TimeUnit.MINUTES.toMillis(10);
@@ -56,7 +56,7 @@ final class LinkedInAccount {
     }
 
     synchronized Uri begin() {
-        if (!configured() || exchanging) return null;
+        if (!configured() || exchanging || accessToken != null) return null;
         verifier = randomToken();
         attempt = randomToken();
         startedAt = SystemClock.elapsedRealtime();
@@ -87,45 +87,83 @@ final class LinkedInAccount {
             message = "LinkedIn sign-in was canceled or expired. Try again.";
             return true;
         }
-        exchanging = true;
-        message = "Completing LinkedIn sign-in…";
-        network.execute(() -> {
-            try {
-                exchange(code, currentVerifier);
-            } catch (IOException | JSONException failure) {
-                synchronized (this) {
-                    message = "LinkedIn sign-in could not be completed. Try again.";
-                }
-            } finally {
-                synchronized (this) { exchanging = false; }
-                changed.run();
-            }
-        });
+        runAuth(() -> {
+            JSONObject body = new JSONObject().put("auth_code", code).put("code_verifier", currentVerifier);
+            HttpUrl endpoint = authEndpoint("token").addQueryParameter("grant_type", "pkce").build();
+            acceptSession(post(endpoint, body), "LinkedIn member");
+        }, "Completing LinkedIn sign-in…", "LinkedIn sign-in could not be completed. Try again.", failure -> changed.run());
         return true;
     }
 
-    private void exchange(String code, String currentVerifier) throws IOException, JSONException {
-        JSONObject body = new JSONObject().put("auth_code", code).put("code_verifier", currentVerifier);
-        HttpUrl endpoint = project.newBuilder().addPathSegments("auth/v1/token")
-                .addQueryParameter("grant_type", "pkce").build();
+    synchronized boolean sendEmailCode(String email, AuthResult result) {
+        if (!configured() || exchanging || accessToken != null) return false;
+        attempt = null;
+        verifier = null;
+        runAuth(() -> post(authEndpoint("otp").build(),
+                new JSONObject().put("email", email).put("create_user", true)),
+                "Sending email code…", "Could not send a code. Check your email address and try again shortly.", result);
+        return true;
+    }
+
+    synchronized boolean verifyEmailCode(String email, String code, AuthResult result) {
+        if (!configured() || exchanging || accessToken != null) return false;
+        runAuth(() -> {
+            JSONObject body = new JSONObject().put("email", email).put("token", code).put("type", "email");
+            acceptSession(post(authEndpoint("verify").build(), body), email);
+        }, "Verifying email code…", "Could not verify the code. Check it or request a new one.", result);
+        return true;
+    }
+
+    interface AuthResult {
+        void complete(String failure);
+    }
+
+    private interface AuthRequest {
+        void run() throws IOException, JSONException;
+    }
+
+    private void runAuth(AuthRequest request, String pending, String error, AuthResult result) {
+        exchanging = true;
+        message = pending;
+        network.execute(() -> {
+            String failure = "";
+            try {
+                request.run();
+            } catch (IOException | JSONException ignored) {
+                failure = error;
+            } finally {
+                synchronized (this) {
+                    exchanging = false;
+                    message = failure;
+                }
+                result.complete(failure);
+            }
+        });
+    }
+
+    private HttpUrl.Builder authEndpoint(String path) {
+        return project.newBuilder().addPathSegments("auth/v1").addPathSegment(path);
+    }
+
+    private JSONObject post(HttpUrl endpoint, JSONObject body) throws IOException, JSONException {
         Request request = new Request.Builder().url(endpoint).header("apikey", publishableKey)
                 .post(RequestBody.create(body.toString(), JSON)).build();
         try (Response response = CLIENT.newCall(request).execute()) {
             ResponseBody responseBody = response.body();
-            if (!response.isSuccessful() || responseBody == null) throw new IOException("Sign-in rejected");
-            JSONObject result = new JSONObject(responseBody.string());
-            JSONObject metadata = result.getJSONObject("user").optJSONObject("user_metadata");
-            String name = metadata == null ? "" : metadata.optString("full_name", metadata.optString("name", ""));
-            String token = result.getString("access_token");
-            long lifetime = result.getLong("expires_in");
-            if (token.isEmpty() || lifetime <= 0) throw new IOException("Invalid session");
-            synchronized (this) {
-                displayName = name.trim().isEmpty() ? "LinkedIn member" : name.substring(0, Math.min(120, name.length()));
-                accessToken = token;
-                expiresAt = SystemClock.elapsedRealtime() + TimeUnit.SECONDS.toMillis(Math.min(lifetime, 86400));
-                message = "";
-            }
+            if (!response.isSuccessful() || responseBody == null) throw new IOException("Auth request rejected");
+            return new JSONObject(responseBody.string());
         }
+    }
+
+    private synchronized void acceptSession(JSONObject result, String fallback) throws IOException, JSONException {
+        JSONObject metadata = result.getJSONObject("user").optJSONObject("user_metadata");
+        String name = metadata == null ? "" : metadata.optString("full_name", metadata.optString("name", "")).trim();
+        String token = result.getString("access_token");
+        long lifetime = result.getLong("expires_in");
+        if (token.isEmpty() || lifetime <= 0) throw new IOException("Invalid session");
+        displayName = name.isEmpty() ? fallback : name.substring(0, Math.min(120, name.length()));
+        accessToken = token;
+        expiresAt = SystemClock.elapsedRealtime() + TimeUnit.SECONDS.toMillis(Math.min(lifetime, 86400));
     }
 
     synchronized void signOut() {

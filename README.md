@@ -37,9 +37,10 @@ give it a category. The offering will appear in the catalog on your device.
 
 ## Sign In and Use the App Offline
 
-In the Android app, choose **Sign in with LinkedIn** when the option is
-available. Sign-in opens in your browser and returns you to The Payload.
-You can continue browsing as a guest.
+In the Android app, choose **Continue with email** and verify the code
+sent to your inbox, or choose **Continue with LinkedIn** and approve access
+in your browser. Either option creates an account on first use and signs you
+in on later visits. You can continue browsing as a guest.
 
 The directory and comparisons work offline. Maps, linked sources, website
 imports, and sign-in use the internet. Companies and offerings you add stay
