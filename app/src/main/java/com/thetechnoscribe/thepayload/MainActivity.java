@@ -282,6 +282,7 @@ public final class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
         showAccount();
+        if (trackerReady && !isDestroyed()) tracker.evaluateJavascript("window.refreshPayloadDirectory && window.refreshPayloadDirectory()", null);
     }
 
     private void receiveAccountLink(Intent intent) {
