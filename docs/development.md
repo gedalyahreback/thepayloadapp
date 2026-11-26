@@ -78,3 +78,8 @@ closes. Companies and offerings remain device-local.
 - [Upload an Android App Bundle](https://developer.android.com/studio/publish/upload-bundle)
 - [How Google Play app updates work](https://developer.android.com/google/play/app-updates)
 - [Google Play Developer API](https://developers.google.com/android-publisher)
+
+
+## Live directory (v0.1.3+)
+
+`directory.json` at the repository root is the canonical public feed. Edit `companies`, preserve stable IDs and increment the integer `revision` for every data change. Keep `schemaVersion` at 1 for compatible changes. The embedded HTML seed is an offline installation fallback, not the live editing target. The app checks the public raw GitHub feed on launch, resume, reconnect, every five minutes while visible, and manual refresh. The last valid feed is cached separately from personal company and offering storage. No APK rebuild is needed for compatible directory edits. GitHub CDN propagation may delay updates. Test on Android with a higher revision, offline restart and local additions before release.
