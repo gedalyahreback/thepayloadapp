@@ -1,0 +1,4996 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "companies": [
+    {
+      "id": "d-fend",
+      "name": "D-Fend Solutions",
+      "country": "IL",
+      "origin": "Israel · 2017",
+      "category": "Counter-Drones",
+      "ownership": "Private subsidiary · Motorola Solutions",
+      "summary": "Builds counter-drone systems centered on radio-frequency cyber takeover.",
+      "website": "https://d-fendsolutions.com/",
+      "logo": "https://mma.prnewswire.com/media/1333159/D_Fend_Solutions_Logo.jpg",
+      "offices": [
+        [
+          "Corporate HQ",
+          "IL",
+          "Ra’anana, Israel",
+          "13 Zarchin Street, Building C"
+        ],
+        [
+          "North America office",
+          "US",
+          "McLean, Virginia, US",
+          "8255 Greensboro Drive, Suite 110"
+        ],
+        [
+          "UK office",
+          "GB",
+          "London, UK",
+          "16 Upper Woburn Place"
+        ],
+        [
+          "Japan office",
+          "JP",
+          "Tokyo, Japan",
+          "Tekko Building, 1-8-2 Marunouchi"
+        ]
+      ],
+      "products": [
+        [
+          "EnforceAir2",
+          "RF detection and cyber takeover",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "EnforceAir PLUS",
+          "RF cyber takeover, integrated radar and optional jamming",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "MSC2",
+          "Multi-sensor command and control",
+          "Command & Intelligence Software",
+          "Software"
+        ]
+      ],
+      "funding": "US$65M disclosed funding tracked before acquisition · Oct 2026 estimate",
+      "employees": "201–500 · company LinkedIn range",
+      "investors": [
+        "Israel Growth Partners",
+        "Vertex Ventures Israel",
+        "Vertex Growth",
+        "Claridge Israel"
+      ],
+      "founders": [
+        "Zohar Halachmi",
+        "Assaf Monsa",
+        "Yaniv Benbenisti"
+      ],
+      "customers": [
+        "U.S. Secret Service (EnforceAir maintenance purchase order, 2024)"
+      ],
+      "coverage": "The Payload · October 13 working edition, maritime counter-drone coverage",
+      "sources": [
+        [
+          "Public offices",
+          "https://d-fendsolutions.com/about-us/locations/"
+        ],
+        [
+          "EnforceAir products",
+          "https://d-fendsolutions.com/enforceair/"
+        ],
+        [
+          "MSC2",
+          "https://d-fendsolutions.com/deployments/"
+        ],
+        [
+          "Motorola acquisition",
+          "https://www.motorolasolutions.com/newsroom/press-releases/motorola-solutions-completes-acquisition-of-dfend-solutions.html"
+        ],
+        [
+          "Founders",
+          "https://www.jpost.com/defense-and-tech/article-885530"
+        ],
+        [
+          "Funding history",
+          "https://aventure.vc/companies/d-fend-solutions-ufsayiv6/fundraising"
+        ],
+        [
+          "Funding announcement",
+          "https://d-fendsolutions.com/press_releases/d-fend-solutions-raises-31m-to-fortify-cyber-counter-drone-technology-and-market-leadership/"
+        ],
+        [
+          "Employee range",
+          "https://il.linkedin.com/company/d-fend-solutions"
+        ],
+        [
+          "U.S. Secret Service purchase order",
+          "https://www.highergov.com/contract/70US0924P70092004/"
+        ]
+      ]
+    },
+    {
+      "id": "xtend",
+      "name": "XTEND AI Robotics",
+      "country": "IL",
+      "origin": "Israel · 2018",
+      "category": "Drones",
+      "ownership": "Public · NYSE: XTND",
+      "summary": "Builds robotic systems and the XOS platform for operating and coordinating them.",
+      "website": "https://xtend.me/",
+      "offices": [
+        [
+          "Israel operations",
+          "IL",
+          "Tel Aviv, Israel",
+          "7 HaBarzel Street"
+        ],
+        [
+          "Corporate HQ",
+          "US",
+          "Tampa, Florida, US",
+          "5247 Crossroads Park Drive"
+        ]
+      ],
+      "products": [
+        [
+          "XOS",
+          "Robotics operating system",
+          "Command & Intelligence Software",
+          "Software"
+        ],
+        [
+          "STRIKER",
+          "Tactical drone platform",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "NEST",
+          "Robotic deployment and recovery station",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": "About US$250M reported including merger financing · Oct 2026",
+      "employees": "267 before reported layoffs · Nov 2026",
+      "investors": [
+        "Chartered Group",
+        "NFX",
+        "TAU Ventures",
+        "Clal-Tech",
+        "Protego Ventures"
+      ],
+      "founders": [
+        "Aviv Shapira",
+        "Matteo Shapira",
+        "Rubi Liani",
+        "Adir Tubi"
+      ],
+      "customers": [
+        "Israel Defense Forces",
+        "U.S. Department of Defense",
+        "UK Ministry of Defence",
+        "Singapore Army"
+      ],
+      "coverage": "The Payload · October 13 and 21 working editions, NEST and STRIKER; November 2 working draft reports STRIKER order and restructuring; figures require primary-source verification.",
+      "sources": [
+        [
+          "Listing and corporate headquarters",
+          "https://xtend.me/ir/"
+        ],
+        [
+          "Defense users",
+          "https://www.sec.gov/Archives/edgar/data/2024306/000149315226013063/form425.htm"
+        ],
+        [
+          "Israel office filing",
+          "https://edgar-mirror.sec-api.io/2111860/000119312526187219/d121457ds4.htm"
+        ],
+        [
+          "U.S. office filing",
+          "https://www.publicnow.com/view/EDEA638872F696E570946A27DDEBB93F195D23CE"
+        ],
+        [
+          "Investment and deployments",
+          "https://roboticsregistry.co/companies/xtend"
+        ],
+        [
+          "Headcount and reported layoffs",
+          "https://www.calcalist.co.il/calcalistech/article/skjjhqutgg"
+        ],
+        [
+          "Funding including merger",
+          "https://www.globes.co.il/news/article.aspx?did=1001554538"
+        ]
+      ]
+    },
+    {
+      "id": "axon-vision",
+      "name": "Axon Vision",
+      "country": "IL",
+      "origin": "Israel · 2017",
+      "category": "Counter-Drones",
+      "ownership": "Public · TASE: AXN",
+      "summary": "Builds AI perception and decision-support systems for defense platforms.",
+      "website": "https://www.axon-vision.com/",
+      "offices": [
+        [
+          "Corporate HQ",
+          "IL",
+          "Tel Aviv, Israel",
+          "150 Menachem Begin Road"
+        ],
+        [
+          "U.S. operations",
+          "US",
+          "United States"
+        ]
+      ],
+      "products": [
+        [
+          "ForceField",
+          "Integrated counter-drone system",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "Edge360",
+          "AI-enabled situational awareness",
+          "Command & Intelligence Software",
+          "Software"
+        ],
+        [
+          "EdgeUAV",
+          "Video analytics for uncrewed aircraft",
+          "Command & Intelligence Software",
+          "Software"
+        ]
+      ],
+      "funding": "US$12M IPO proceeds · TASE statistics; lifetime total unverified",
+      "employees": "11–50 · company directory range",
+      "investors": [],
+      "founders": [
+        "Ido Rozenberg (verified co-founder)"
+      ],
+      "customers": [],
+      "coverage": "The Payload · October 13 working edition, ForceField demonstration",
+      "sources": [
+        [
+          "Company address",
+          "https://www.axon-vision.com/investor-relations"
+        ],
+        [
+          "Founding record",
+          "https://innovationisrael.org.il/en/importWinner/515697936/"
+        ],
+        [
+          "U.S. operations, listing and co-founder",
+          "https://www.prnewswire.com/news-releases/axon-vision-accelerates-us-growth-strategy-with-expanded-us-operating-presence-and-strategic-leadership-302915562.html"
+        ],
+        [
+          "IPO statistics",
+          "https://content.tase.co.il/media/o2elgy1j/stat_210_ipo_companies_2026_eng.pdf"
+        ],
+        [
+          "Company size and ForceField",
+          "https://finder.startupnationcentral.org/company_page/axon-vision?section=business"
+        ]
+      ]
+    },
+    {
+      "id": "thirdeye",
+      "name": "ThirdEye Systems",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Counter-Drones",
+      "ownership": "Public · TASE: THES",
+      "summary": "Builds electro-optical sensors and AI-based detection for drone and counter-drone systems.",
+      "website": "https://thirdeye-systems.com/",
+      "offices": [
+        [
+          "Corporate HQ",
+          "IL",
+          "Netanya, Israel",
+          "14 Beni Gaon Street"
+        ]
+      ],
+      "products": [
+        [
+          "Iron Web",
+          "Electro-optical detection and tracking for counter-drone systems",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": "US$10M EDGE investment reported in 2026 · lifetime total unverified",
+      "employees": "60 · Dec 2025, Stock Analysis",
+      "investors": [
+        "EDGE Group"
+      ],
+      "founders": [
+        "Yoel Motola",
+        "Lior Segal",
+        "Gil Barak"
+      ],
+      "customers": [
+        "Israel Defense Forces (company-reported use)"
+      ],
+      "coverage": "The Payload · October 13 working edition, ThirdEye and ParaZero collaboration",
+      "sources": [
+        [
+          "Founders, Israeli office and IDF use",
+          "https://thirdeye-systems.com/about-us/"
+        ],
+        [
+          "EDGE investment",
+          "https://en.globes.co.il/en/article-uae-co-edge-group-confirms-investment-in-israels-thirdeye-systems-1001531725"
+        ],
+        [
+          "ParaZero collaboration",
+          "https://parazero.com/2026/09/15/parazero-and-thirdeye-systems-sign-mou-to-develop-a-360-detect-to-defeat-counter-uas-solution-for-armored-vehicles-and-critical-assets/"
+        ],
+        [
+          "Employee data",
+          "https://stockanalysis.com/quote/tlv/THES/employees/"
+        ]
+      ]
+    },
+    {
+      "id": "parazero",
+      "name": "ParaZero Technologies",
+      "country": "IL",
+      "origin": "Be’er Sheva, Israel · 2014 (company history)",
+      "category": "Counter-Drones",
+      "ownership": "Public · Nasdaq: PRZO",
+      "summary": "Builds net-based counter-drone systems and parachute safety systems for drones.",
+      "website": "https://parazero.com/",
+      "offices": [
+        [
+          "Corporate HQ",
+          "IL",
+          "Kfar Saba, Israel",
+          "1 Hatachana Street"
+        ]
+      ],
+      "products": [
+        [
+          "TillOnAIR",
+          "Reusable counter-UAS interceptor system",
+          "Counter-Drone Systems",
+          "Hardware",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "DefendAir",
+          "Net-launching counter-drone platform",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "SafeAir",
+          "Parachute-based drone recovery system",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "DefendAir Net Pod",
+          "Modular non-explosive net-based interception component for fixed and vehicle-mounted C-UAS systems",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "DefendAir Net Pods",
+          "Vehicle-integrated net-based counter-UAS system",
+          "Counter-Drone Systems",
+          "Hardware",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "funding": "US$5.3M gross across two 2025 registered offerings · lifetime total unverified",
+      "employees": "22 full-time · Mar 2026 filing",
+      "investors": [],
+      "founders": [
+        "Amir and Ran (first names disclosed by company)"
+      ],
+      "customers": [],
+      "coverage": "The Payload · October 13 working edition, ThirdEye and ParaZero collaboration. A U.S. federal agency and an Israeli defense entity placed orders, but neither agency was named in the announcements. November 2026: fourth European DefendAir order and TillOnAIR launch.",
+      "sources": [
+        [
+          "Israeli incorporation, headquarters, financing and employees",
+          "https://www.sec.gov/Archives/edgar/data/1916241/000121390026034376/ea0282637-20f_parazero.htm"
+        ],
+        [
+          "TillOnAIR launch",
+          "https://parazero.com/2026/10/26/parazero-launches-tillonair-an-autonomous-detect-to-defeat-c-uas-system-with-reusable-interceptors/"
+        ],
+        [
+          "Unnamed U.S. federal customer",
+          "https://parazero.com/2026/08/25/parazero-receives-first-defendair-order-from-u-s-federal-agency-marking-entry-into-the-u-s-counter-uas-market/"
+        ],
+        [
+          "Unnamed Israeli defense customer",
+          "https://www.nasdaq.com/press-release/parazero-secures-new-order-defendair-counter-uas-systems-israeli-defense-entity-2026"
+        ],
+        [
+          "Founding story",
+          "https://parazero.com/2025/08/22/parazero-a-story-of-innovation/"
+        ],
+        [
+          "U.S. federal order",
+          "https://www.globenewswire.com/news-release/2026/08/25/3350425/0/en/parazero-receives-first-defendair-order-from-u-s-federal-agency-marking-entry-into-the-u-s-counter-uas-market.html"
+        ],
+        [
+          "Israeli defense order",
+          "https://parazero.com/2026/03/13/parazero-secures-a-new-order-for-defendair-counter-uas-systems-from-israeli-defense-entity/"
+        ],
+        [
+          "November 2026 European fourth order",
+          "https://parazero.com/2026/11/02/parazero-receives-fourth-order-from-tier-1-european-defense-company-advancing-vehicle-integration-and-planned-demonstrations-for-nato-member-military-officials/"
+        ],
+        [
+          "Product coverage",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "high-lander",
+      "name": "High Lander",
+      "country": "IL",
+      "origin": "Israel · 2018",
+      "category": "Airspace Management",
+      "ownership": "Private",
+      "summary": "Builds airspace-management, fleet-management and low-altitude security software.",
+      "website": "https://www.highlander.io/",
+      "offices": [
+        [
+          "Corporate HQ",
+          "IL",
+          "Tel Aviv, Israel",
+          "39 Shaul HaMelech Boulevard"
+        ]
+      ],
+      "products": [
+        [
+          "Vega UTM",
+          "Uncrewed traffic management",
+          "Airspace & Fleet Management",
+          "Software"
+        ],
+        [
+          "Orion DFM",
+          "Drone fleet management",
+          "Airspace & Fleet Management",
+          "Software"
+        ],
+        [
+          "Andromeda",
+          "Counter-UAS coordination software",
+          "Command & Intelligence Software",
+          "Software",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "funding": "US$30M total · company announcement, Oct 2026",
+      "employees": "51–200 · company profile range",
+      "investors": [
+        "EDGE Group",
+        "STEP",
+        "Protego Ventures",
+        "Kinetica"
+      ],
+      "founders": [
+        "Alon Abelson",
+        "Ido Yahalomi"
+      ],
+      "customers": [
+        "Israel Government Companies Authority (Vega initiative)",
+        "Israel Innovation Authority (Vega initiative)"
+      ],
+      "coverage": "The Payload · October 21 working edition, financing and Andromeda",
+      "sources": [
+        [
+          "Funding and products",
+          "https://www.prnewswire.com/il/news-releases/high-lander-announces-it-has-reached-a-total-of-30-million-in-funding-302912395.html"
+        ],
+        [
+          "Founding team",
+          "https://innovationisrael.org.il/en/importWinner/515916930/"
+        ],
+        [
+          "HQ and size",
+          "https://www.linkedin.com/company/high-lander"
+        ],
+        [
+          "Named public-sector users",
+          "https://www.highlander.io/post/high-lander-selected-to-provide-utm-services-across-israel-for-eighteen-month-period"
+        ],
+        [
+          "Product coverage",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "elsight",
+      "name": "Elsight",
+      "country": "IL",
+      "origin": "Israel · 2009",
+      "category": "Navigation & Communications",
+      "ownership": "Public · ASX: ELS",
+      "summary": "Builds multi-link communications for drones and other uncrewed systems.",
+      "website": "https://www.elsight.com/",
+      "offices": [
+        [
+          "Israel operating office",
+          "IL",
+          "Ramat Gan, Israel",
+          "13 Menachem Begin Boulevard, Icon Tower, 15th floor"
+        ]
+      ],
+      "products": [
+        [
+          "Halo",
+          "Connectivity platform that combines available cellular, satellite and radio links",
+          "Navigation & Communications",
+          "Hardware"
+        ],
+        [
+          "Halo / Mayhem 10 integration",
+          "Connectivity integration with AeroVironment platform reported in October coverage",
+          "Navigation & Communications",
+          "Hardware",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "funding": "US$60.52M across reported financings · Finder estimate",
+      "employees": "11–50 · Finder directory range",
+      "investors": [],
+      "founders": [
+        "Nir Gabay",
+        "Roee Kashi"
+      ],
+      "customers": [
+        "DroneUp (named customer in annual report)"
+      ],
+      "coverage": "The Payload · Starshield edition and October 18 working edition, resilient connectivity",
+      "sources": [
+        [
+          "Public Israel office",
+          "https://www.elsight.com/contact-us/"
+        ],
+        [
+          "Products and listing",
+          "https://www.elsight.com/about-us/"
+        ],
+        [
+          "Founders",
+          "https://en.globes.co.il/en/article-we-had-the-right-product-at-the-right-time-1001532940"
+        ],
+        [
+          "Funding and size",
+          "https://finder.startupnationcentral.org/company_page/elsight?section=news"
+        ],
+        [
+          "DroneUp relationship",
+          "https://www.elsight.com/wp-content/uploads/2025/02/Appendix-4E-and-Annual-Report-2024.pdf"
+        ],
+        [
+          "Product coverage",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "kela",
+      "name": "Kela Technologies",
+      "country": "IL",
+      "origin": "Israel · 2024",
+      "category": "Command & Control",
+      "ownership": "Private",
+      "summary": "Builds command-and-control software that integrates sensors and other defense systems.",
+      "website": "https://kelasys.com/",
+      "offices": [
+        [
+          "Corporate HQ",
+          "IL",
+          "Tel Aviv, Israel"
+        ]
+      ],
+      "products": [
+        [
+          "Kela command-and-control platform",
+          "Integrates defense sensors, software and systems",
+          "Command & Intelligence Software",
+          "Software"
+        ]
+      ],
+      "funding": "About US$300M reported · May 2026",
+      "employees": "About 150 reported · May 2026",
+      "investors": [
+        "Stripes",
+        "D1 Capital Partners",
+        "Sequoia Capital",
+        "Lux Capital"
+      ],
+      "founders": [
+        "Alon Dror",
+        "Hamutal Meridor",
+        "Omer Bar-Ilan",
+        "Jason Manne"
+      ],
+      "customers": [
+        "Israel Ministry of Defense (Digital Bat tender)"
+      ],
+      "coverage": "The Payload · IDF FPV grounding draft, Digital Bat procurement",
+      "sources": [
+        [
+          "HQ",
+          "https://app.dealroom.co/companies/kela_technologies"
+        ],
+        [
+          "Funding and workforce",
+          "https://en.globes.co.il/en/article-israeli-defense-tech-co-kela-raising-200m-at-12b-valuation-1001542138"
+        ],
+        [
+          "Founding team",
+          "https://finder.startupnationcentral.org/company_page/kela-ai-systems?section=team"
+        ],
+        [
+          "Named government tender",
+          "https://www.calcalistech.com/ctechnews/article/byjpzaxnfe"
+        ]
+      ]
+    },
+    {
+      "id": "aitan",
+      "name": "AITAN (formerly eyesAtop)",
+      "country": "IL",
+      "origin": "Israel · 2015 as eyesAtop",
+      "category": "Drones",
+      "ownership": "Private",
+      "summary": "Builds autonomy and control software for drones and other robotic platforms.",
+      "website": "https://aitansystems.com/",
+      "offices": [
+        [
+          "Home office city reported for eyesAtop",
+          "IL",
+          "Tirat Carmel, Israel"
+        ]
+      ],
+      "products": [
+        [
+          "Ronen",
+          "Drone operating system associated with eyesAtop",
+          "Command & Intelligence Software",
+          "Software"
+        ]
+      ],
+      "funding": "US$41M announced round · Sep 2026",
+      "employees": "7 at the time of the eyesAtop acquisition, per Ynet · current count unverified",
+      "investors": [
+        "Deep33",
+        "Dell Technologies Capital",
+        "Gokul Rajaram"
+      ],
+      "founders": [
+        "Ido Yitzhak (eyesAtop)",
+        "Yinon Atzmon (eyesAtop)",
+        "Einav Harazi (eyesAtop)",
+        "Ben Barkai (eyesAtop)"
+      ],
+      "customers": [
+        "Israel Defense Forces (reported user)",
+        "Israel Ministry of Defense (Digital Bat tender)"
+      ],
+      "coverage": "The Payload · IDF FPV grounding draft, covered under the eyesAtop name",
+      "sources": [
+        [
+          "Rebrand and funding",
+          "https://www.calcalistech.com/ctechnews/article/b1dz1kbdme"
+        ],
+        [
+          "Predecessor founders, location and Ronen",
+          "https://www.ynetnews.com/tech-and-digital/article/hja7h3dufg"
+        ],
+        [
+          "Founding year",
+          "https://finder.startupnationcentral.org/company_page/eyesatop?section=financials"
+        ],
+        [
+          "Named government tender",
+          "https://www.calcalistech.com/ctechnews/article/byjpzaxnfe"
+        ],
+        [
+          "Official site",
+          "https://aitansystems.com/"
+        ]
+      ]
+    },
+    {
+      "id": "airobotics",
+      "name": "Airobotics",
+      "country": "IL",
+      "origin": "Israel · 2014",
+      "category": "Drones",
+      "ownership": "Private subsidiary · Ondas",
+      "summary": "Builds autonomous drone-in-a-box systems and counter-drone interceptors.",
+      "website": "https://www.airoboticsdrones.com/",
+      "offices": [
+        [
+          "Israel office and R&D",
+          "IL",
+          "Petah Tikva, Israel",
+          "8 Modi’in Street"
+        ]
+      ],
+      "products": [
+        [
+          "Optimus",
+          "Autonomous drone-in-a-box system",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "Iron Drone",
+          "Autonomous counter-drone interceptor",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "Digital Bat",
+          "Development and integration lead per Ondas announcement",
+          "Drones",
+          "Hardware",
+          "https://ir.ondas.com/press-releases/detail/340/ondas-receives-purchase-order-for-next-generation-tactical"
+        ]
+      ],
+      "funding": "US$101M reported total as of Oct 2018 · historical figure",
+      "employees": "230+ reported in Oct 2018 · current count unverified",
+      "investors": [
+        "Pavilion Capital",
+        "OurCrowd",
+        "BlueRun Ventures",
+        "CRV"
+      ],
+      "founders": [
+        "Ran Krauss",
+        "Meir Kliner"
+      ],
+      "customers": [
+        "Intel (first commercial customer, per Airobotics)"
+      ],
+      "coverage": "The Payload · IDF FPV grounding draft, Airobotics/Ondas",
+      "sources": [
+        [
+          "Products, ownership and Intel",
+          "https://www.airoboticsdrones.com/company/"
+        ],
+        [
+          "Founders and investors",
+          "https://finder.startupnationcentral.org/company_page/airobotics?section=financials"
+        ],
+        [
+          "Historical funding and workforce",
+          "https://www.calcalistech.com/ctech/articles/0,7340,L-3748764,00.html"
+        ],
+        [
+          "Public Israel office",
+          "https://ir.ondas.com/annual-reports/content/0001213900-25-022968/ea0232702-10k_ondashold.htm"
+        ],
+        [
+          "Ondas group",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "Product coverage",
+          "https://ir.ondas.com/press-releases/detail/340/ondas-receives-purchase-order-for-next-generation-tactical"
+        ]
+      ],
+      "parentCompanyId": "ondas-autonomous-systems"
+    },
+    {
+      "id": "skyfall",
+      "name": "SkyFall",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Private",
+      "summary": "Builds Ukrainian drone platforms for interception, aerial support and other missions.",
+      "website": "https://skyfall.ua/",
+      "logo": "https://bavovna.ai/wp-content/uploads/2025/03/skyfall-logo-edit.png",
+      "offices": [
+        [
+          "HQ city (public profile)",
+          "UA",
+          "Kyiv, Ukraine"
+        ]
+      ],
+      "products": [
+        [
+          "P1-SUN",
+          "Interceptor drone family",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "Vampire",
+          "Heavy multirotor platform",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "Shrike",
+          "FPV drone family",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "StarGate",
+          "Heavy-lift UAV covered in November 5 edition",
+          "Drones",
+          "Hardware",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [
+        "Japan Ministry of Defense (reported interceptor contract, Oct 2026)",
+        "Ukrainian forces (named recipient of announced Shrike deliveries)"
+      ],
+      "coverage": "The Payload · October 11 working edition, SkyFall interceptor exports",
+      "sources": [
+        [
+          "Company profile and HQ city",
+          "https://partners.dealroom.co/companies/skyfall_industries"
+        ],
+        [
+          "Japan contract and product line",
+          "https://www.pravda.com.ua/eng/news/2026/10/10/8057335/"
+        ],
+        [
+          "Ukrainian recipients",
+          "https://auterion.com/auterion-and-skyfall-to-ship-50000-shrike-strike-drones-to-ukraines-front-lines/"
+        ],
+        [
+          "Company logo and profile (Bavovna)",
+          "https://bavovna.ai/manufactures/skyfall/"
+        ],
+        [
+          "Product coverage",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "buntar",
+      "name": "Buntar Aerospace",
+      "country": "UA",
+      "origin": "Ukraine · 2023",
+      "category": "Drones",
+      "ownership": "Private",
+      "summary": "Develops reconnaissance aircraft and software for planning and managing drone missions.",
+      "website": "https://buntar.com/en/",
+      "offices": [
+        [
+          "Home base (public reporting)",
+          "UA",
+          "Kyiv, Ukraine"
+        ]
+      ],
+      "products": [
+        [
+          "Buntar-3",
+          "Reconnaissance aircraft",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "Buntar Copilot",
+          "Mission and flight-management software",
+          "Airspace & Fleet Management",
+          "Software"
+        ]
+      ],
+      "funding": "US$30M total · company announcement, Oct 2026",
+      "employees": "11–50 · company profile range",
+      "investors": [
+        "Freedom Fund VC",
+        "Gardar Venture Capital",
+        "Iron Wolf Capital",
+        "Autonomy Capital",
+        "Axon Enterprise"
+      ],
+      "founders": [
+        "Ivan Kaunov",
+        "Bohdan Sas"
+      ],
+      "customers": [
+        "Ukrainian military units (reported users, units unnamed)"
+      ],
+      "coverage": "The Payload · October 11 working edition, Buntar financing",
+      "sources": [
+        [
+          "Product portfolio",
+          "https://buntar.com/en/"
+        ],
+        [
+          "Capital raised and investors",
+          "https://labs.sigma.software/buntar-aerospace-raises-16m-to-scale-defense-autonomy/"
+        ],
+        [
+          "Founders",
+          "https://www.estvca.ee/news/iron-wolf-capital-joins-buntar-aerospace-s-usd16-million-funding-round"
+        ],
+        [
+          "Public company size",
+          "https://www.linkedin.com/company/buntar-aerospace"
+        ],
+        [
+          "Ukrainian operations and users",
+          "https://www.axios.com/2026/10/07/ukrainian-defense-tech-buntar-drone"
+        ],
+        [
+          "Reported home city",
+          "https://craft.co/buntar-aerospace"
+        ]
+      ]
+    },
+    {
+      "id": "sine",
+      "name": "Sine Engineering",
+      "country": "UA",
+      "origin": "Ukraine · project started in 2022",
+      "category": "Navigation & Communications",
+      "ownership": "Private",
+      "summary": "Builds communication and positioning components for drones.",
+      "website": "https://www.sine.engineering/",
+      "offices": [
+        [
+          "Home HQ",
+          "UA",
+          "Lviv, Ukraine"
+        ]
+      ],
+      "products": [
+        [
+          "Resilient UAV data links",
+          "Radio communications for uncrewed systems",
+          "Navigation & Communications",
+          "Hardware"
+        ],
+        [
+          "GNSS-independent positioning",
+          "Positioning technology for drones",
+          "Navigation & Communications",
+          "Hardware"
+        ]
+      ],
+      "funding": "U.S.–Ukraine Reconstruction Investment Fund investment announced Mar 2026 · amount unverified",
+      "employees": "450+ · transaction counsel, Mar 2026",
+      "investors": [
+        "U.S.–Ukraine Reconstruction Investment Fund"
+      ],
+      "founders": [
+        "Andriy Chulyk",
+        "Ostap Ferensovych",
+        "Bohdan Tymkiv"
+      ],
+      "customers": [],
+      "coverage": "The Payload · Starshield edition discussion, Ukraine Already Making Moves",
+      "sources": [
+        [
+          "Product platform and origins",
+          "https://www.sine.engineering/"
+        ],
+        [
+          "Lviv, investment and workforce",
+          "https://aequo.ua/en/news/sine-engineering-receives-investment-from-u-s-ukraine-reconstruction-fund"
+        ],
+        [
+          "Founders",
+          "https://techcrunch.com/2025/02/24/three-years-on-europe-looks-to-ukraine-for-the-future-of-defense-tech/"
+        ]
+      ]
+    },
+    {
+      "id": "himera",
+      "name": "HIMERA",
+      "country": "UA",
+      "origin": "Ukraine · 2022",
+      "category": "Navigation & Communications",
+      "ownership": "Private",
+      "summary": "Builds secure tactical communications equipment for defense and emergency teams.",
+      "website": "https://himeratech.com/en",
+      "offices": [
+        [
+          "Home HQ",
+          "UA",
+          "Kyiv, Ukraine"
+        ]
+      ],
+      "products": [
+        [
+          "HIMERA G1",
+          "Handheld tactical radio",
+          "Navigation & Communications",
+          "Hardware"
+        ],
+        [
+          "HIMERA G1 PRO",
+          "Updated handheld radio",
+          "Navigation & Communications",
+          "Hardware"
+        ]
+      ],
+      "funding": "US$2.5M+ seed round · Dec 2025",
+      "employees": "55 · PwC cohort profile",
+      "investors": [
+        "Green Flag Ventures",
+        "Nezlamni",
+        "United Angels Network",
+        "Freedom Fund",
+        "Bulava Capital"
+      ],
+      "founders": [
+        "Mykhailo (Misha) Rudominsky",
+        "Oleksiy Oliynyk"
+      ],
+      "customers": [
+        "Ukrainian Defense Forces (reported users)",
+        "U.S. Air Force (reported initial radio sale)"
+      ],
+      "coverage": "The Payload · Starshield edition discussion, Ukraine Already Making Moves",
+      "sources": [
+        [
+          "Products and Ukrainian users",
+          "https://himeratech.com/en/about-us"
+        ],
+        [
+          "Funding and investors",
+          "https://digitalstate.gov.ua/news/tech/himera-raises-25m-to-scale-secure-communications-for-defense-use"
+        ],
+        [
+          "Founders and U.S. Air Force",
+          "https://dev.ua/en/news/blits-interviu-iz-spivzasnovnykom-himera"
+        ],
+        [
+          "Kyiv HQ and employee count",
+          "https://www.pwc.be/en/fy25/documents/pwc-scale-defence-and-resilience-tech-programme-cohort-book.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "swarmer",
+      "name": "Swarmer",
+      "country": "UA",
+      "origin": "Ukrainian origins · 2023; U.S. incorporation",
+      "category": "Command & Control",
+      "ownership": "Public · Nasdaq: SWMR",
+      "summary": "Builds software for coordinating multiple uncrewed systems.",
+      "website": "https://swarmer.com/",
+      "offices": [
+        [
+          "Home engineering office",
+          "UA",
+          "Kyiv, Ukraine"
+        ],
+        [
+          "Corporate HQ and U.S. sales",
+          "US",
+          "Austin, Texas, US",
+          "4515 Seton Center Parkway, Suite 330"
+        ],
+        [
+          "Engineering office",
+          "PL",
+          "Warsaw, Poland"
+        ]
+      ],
+      "products": [
+        [
+          "Styx",
+          "Multi-drone coordination software",
+          "Command & Intelligence Software",
+          "Software"
+        ]
+      ],
+      "funding": "US$15M Series A (2025) plus US$17.25M gross IPO (2026) · disclosed events",
+      "employees": "62 full-time and 59 contractors · Jun 2026 filing",
+      "investors": [
+        "Broadband Capital Investments",
+        "R-G.AI",
+        "D3 Ventures",
+        "Green Flag Ventures",
+        "Radius Capital",
+        "Network VC"
+      ],
+      "founders": [
+        "Serhii Kupriienko",
+        "Alex Fink"
+      ],
+      "customers": [
+        "Ukrainian military units (company-reported users, units unnamed)"
+      ],
+      "coverage": "The Payload · Starshield edition discussion, Ukraine Already Making Moves",
+      "sources": [
+        [
+          "Founders and users",
+          "https://swarmer.com/about/"
+        ],
+        [
+          "Offices, product and employees",
+          "https://www.sec.gov/Archives/edgar/data/2092574/000110465926072392/tmb-20260331xs1.htm"
+        ],
+        [
+          "Series A and investors",
+          "https://swarmer.com/news/swarmer-ukraines-leading-drone-autonomy-and-swarming-company-announces-15m-series-a-led-by-us-investors/"
+        ],
+        [
+          "IPO close",
+          "https://www.sec.gov/Archives/edgar/data/2092574/000110465926031244/tm2529424d17_ex99-2.htm"
+        ]
+      ]
+    },
+    {
+      "id": "sentrycs",
+      "name": "Sentrycs",
+      "country": "IL",
+      "origin": "Israel · incorporated 2016",
+      "category": "Counter-Drones",
+      "ownership": "Private subsidiary · Ondas",
+      "summary": "Builds radio-frequency counter-drone systems for detection and mitigation.",
+      "website": "https://sentrycs.com/",
+      "offices": [
+        [
+          "Israel office",
+          "IL",
+          "Tel Aviv, Israel",
+          "ToHa Tower, Totzeret Ha’aretz 6"
+        ]
+      ],
+      "products": [
+        [
+          "Sentrycs counter-UAS platform",
+          "Protocol-aware detection and mitigation",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Acquisition and technology",
+          "https://ir.ondas.com/press-releases/detail/256/ondas-completes-acquisition-of-sentrycs-a-global-leader-in"
+        ],
+        [
+          "Corporate history and incorporation",
+          "https://ir.ondas.com/all-sec-filings/content/0001213900-26-008288/0001213900-26-008288.pdf"
+        ],
+        [
+          "Company contact",
+          "https://sentrycs.com/contact-us/"
+        ],
+        [
+          "Ondas group",
+          "https://www.ondas.com/company-overview"
+        ]
+      ],
+      "parentCompanyId": "ondas-autonomous-systems"
+    },
+    {
+      "id": "robotican",
+      "name": "Robotican",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Drones",
+      "ownership": "Ownership unverified",
+      "summary": "Develops autonomous aerial robots for reconnaissance and counter-drone use.",
+      "website": "https://robotican.net/",
+      "offices": [
+        [
+          "Company office",
+          "IL",
+          "Omer, Israel",
+          "Omer Industrial Park, Building 8D"
+        ]
+      ],
+      "products": [
+        [
+          "Rooster",
+          "Hybrid aerial and ground robot",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "Goshawk",
+          "Autonomous drone interceptor",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and Rooster",
+          "https://robotican.net/"
+        ],
+        [
+          "Goshawk product",
+          "https://robotican.net/goshawk-autonomous-drone-interceptor/"
+        ]
+      ]
+    },
+    {
+      "id": "spear-uav",
+      "name": "SpearUAV",
+      "country": "IL",
+      "origin": "Israel · 2017",
+      "category": "Drones",
+      "ownership": "Ownership unverified",
+      "summary": "Develops compact encapsulated uncrewed aerial systems.",
+      "website": "https://spearuav.com/",
+      "offices": [
+        [
+          "Israel office",
+          "IL",
+          "Tel Aviv, Israel",
+          "24 Raoul Wallenberg St., Building D"
+        ]
+      ],
+      "products": [
+        [
+          "VIPER",
+          "Encapsulated uncrewed aerial systems family",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [
+        "Gadi Kuperman"
+      ],
+      "customers": [
+        "Israel Ministry of Defense (program supplier, per company)"
+      ],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Founding and product family",
+          "https://spearuav.com/uav-systems-integrator/"
+        ],
+        [
+          "Founder",
+          "https://spearuav.com/about-us/"
+        ],
+        [
+          "Company contact",
+          "https://spearuav.com/contact/"
+        ]
+      ]
+    },
+    {
+      "id": "airwayz",
+      "name": "Airwayz",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Airspace Management",
+      "ownership": "Ownership unverified",
+      "summary": "Develops software for coordinating drone traffic and managing shared airspace.",
+      "website": "https://www.airwayz.co/",
+      "offices": [
+        [
+          "Principal office",
+          "IL",
+          "Tel Aviv, Israel",
+          "3 Hanechoshet St."
+        ]
+      ],
+      "products": [
+        [
+          "OVERWATCH",
+          "Airspace command-and-control software",
+          "Airspace & Fleet Management",
+          "Software"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Product and use cases",
+          "https://www.airwayz.co/"
+        ],
+        [
+          "Principal office",
+          "https://www.airwayz.co/privacy-policy"
+        ],
+        [
+          "Israel Innovation Authority profile",
+          "https://innovationisrael.org.il/en/importWinner/516010386/"
+        ]
+      ]
+    },
+    {
+      "id": "aerotor",
+      "name": "Aerotor Unmanned Systems",
+      "country": "IL",
+      "origin": "Israel · 2017",
+      "category": "Drones",
+      "ownership": "Private",
+      "summary": "Develops the APUS multirotor aircraft platform.",
+      "website": "https://aerotor-uas.com/",
+      "offices": [
+        [
+          "Company headquarters",
+          "IL",
+          "Beit Yehoshua, Israel",
+          "Industrial Park"
+        ]
+      ],
+      "products": [
+        [
+          "APUS",
+          "Multirotor aircraft family",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": "11–50 · company LinkedIn range",
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and platform",
+          "https://aerotor-uas.com/"
+        ],
+        [
+          "Founding, headquarters and workforce",
+          "https://www.linkedin.com/company/aerotor-unmanned-systems-ltd"
+        ]
+      ]
+    },
+    {
+      "id": "infinidome",
+      "name": "infiniDome",
+      "country": "IL",
+      "origin": "Israel · 2016",
+      "category": "Navigation & Communications",
+      "ownership": "Ownership unverified",
+      "summary": "Develops resilient positioning technology for uncrewed aircraft and ground systems.",
+      "website": "https://infinidome.com/",
+      "offices": [
+        [
+          "Israel headquarters",
+          "IL",
+          "Caesarea, Israel"
+        ]
+      ],
+      "products": [
+        [
+          "GPSdome",
+          "GNSS protection system",
+          "Navigation & Communications",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": "24 · company one-pager, undated snapshot",
+      "investors": [
+        "Honeywell",
+        "Hanwha",
+        "NextGear Ventures"
+      ],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and offices",
+          "https://infinidome.com/about-us/"
+        ],
+        [
+          "Product overview",
+          "https://infinidome.com/"
+        ],
+        [
+          "Company one-pager and investors",
+          "https://infinidome.com/wp-content/uploads/2024/02/Company-one-pager.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "copterpix",
+      "name": "CopterPIX",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Drones",
+      "ownership": "Ownership unverified",
+      "summary": "Develops small uncrewed aircraft and drone-in-a-box systems.",
+      "website": "https://www.copterpix.pro/",
+      "offices": [
+        [
+          "Company office",
+          "IL",
+          "Ashkelon, Israel",
+          "1 HaHarash St."
+        ]
+      ],
+      "products": [
+        [
+          "ERE 95 Pro",
+          "Small uncrewed aircraft",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "Drone in a Box",
+          "Automated docking system",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company, products and address",
+          "https://www.copterpix.pro/"
+        ]
+      ]
+    },
+    {
+      "id": "smartshooter",
+      "name": "SMARTSHOOTER",
+      "country": "IL",
+      "origin": "Israel · 2011",
+      "category": "Weapons & Fire Control",
+      "ownership": "Ownership unverified",
+      "summary": "Develops electro-optical fire-control products for ground and aerial targets.",
+      "website": "https://www.smart-shooter.com/",
+      "offices": [
+        [
+          "Company headquarters",
+          "IL",
+          "Yagur, Israel"
+        ]
+      ],
+      "products": [
+        [
+          "SMASH",
+          "Fire-control product family",
+          "Fire Control & Payloads",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and product family",
+          "https://www.smart-shooter.com/about-smart-shooter/"
+        ],
+        [
+          "Founding year and company profile",
+          "https://www.linkedin.com/company/smart-shooter"
+        ]
+      ]
+    },
+    {
+      "id": "helsing",
+      "name": "Helsing",
+      "country": "DE",
+      "origin": "Germany",
+      "category": "Drones",
+      "ownership": "Private",
+      "summary": "Develops defense software and autonomous systems across multiple domains.",
+      "website": "https://helsing.ai/",
+      "offices": [
+        [
+          "Corporate base",
+          "DE",
+          "Munich, Germany"
+        ]
+      ],
+      "products": [
+        [
+          "HX-2",
+          "Uncrewed aircraft",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "CA-1 Europa",
+          "Uncrewed aircraft program",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": "US$1.8B Series E · July 2026",
+      "employees": null,
+      "investors": [],
+      "founders": [
+        "Gundbert Scherf"
+      ],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and programs",
+          "https://helsing.ai/"
+        ],
+        [
+          "Series E announcement",
+          "https://helsing.ai/newsroom/helsing-raises-1-8bn-in-series-e"
+        ],
+        [
+          "Munich base and financing",
+          "https://www.reuters.com/business/aerospace-defense/europes-helsing-raises-18-billion-valuing-defence-group-18-billion-2026-07-13/"
+        ]
+      ]
+    },
+    {
+      "id": "quantum-systems",
+      "name": "Quantum Systems",
+      "country": "DE",
+      "origin": "Gilching, Germany · 2015",
+      "category": "Drones",
+      "ownership": "Private",
+      "summary": "Develops uncrewed aircraft and aerial intelligence systems for government and commercial users.",
+      "website": "https://quantum-systems.com/",
+      "offices": [
+        [
+          "Corporate headquarters",
+          "DE",
+          "Gilching, Germany"
+        ]
+      ],
+      "products": [
+        [
+          "Vector",
+          "Aerial intelligence aircraft",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": "€340M raised in 2025 across Series C and extension",
+      "employees": null,
+      "investors": [
+        "Balderton Capital"
+      ],
+      "founders": [
+        "Florian Seibel"
+      ],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Founding and operations",
+          "https://quantum-systems.com/us/about-us/"
+        ],
+        [
+          "Company anniversary and products",
+          "https://quantum-systems.com/news/quantum-systems-10-years-anniversary/"
+        ],
+        [
+          "2025 financing",
+          "https://quantum-systems.com/news/quantum-systems-triples-valuation/"
+        ]
+      ]
+    },
+    {
+      "id": "arx-robotics",
+      "name": "ARX Robotics",
+      "country": "DE",
+      "origin": "Germany · 2022",
+      "category": "Ground Robotics",
+      "ownership": "Private",
+      "summary": "Develops uncrewed ground vehicles and software that integrates ground platforms.",
+      "website": "https://www.arx-robotics.com/",
+      "offices": [
+        [
+          "Company headquarters metro",
+          "DE",
+          "Munich, Germany"
+        ],
+        [
+          "UK office",
+          "GB",
+          "London, UK"
+        ]
+      ],
+      "products": [
+        [
+          "Gereon",
+          "Uncrewed ground vehicle family",
+          "Ground & Maritime Vehicles",
+          "Hardware"
+        ],
+        [
+          "Mithra OS",
+          "Software for autonomous and legacy platforms",
+          "Command & Intelligence Software",
+          "Software"
+        ]
+      ],
+      "funding": "€42M Series A and extension, as reported by company",
+      "employees": null,
+      "investors": [
+        "HV Capital",
+        "Speedinvest",
+        "NATO Innovation Fund",
+        "Project A Ventures",
+        "Omnes Capital",
+        "Discovery Ventures"
+      ],
+      "founders": [
+        "Marc Wietfeld",
+        "Maximilian Wied",
+        "Stefan Roebel"
+      ],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Products and company",
+          "https://www.arx-robotics.com/about-arx-robotics"
+        ],
+        [
+          "Founders, financing and deployments",
+          "https://www.arx-robotics.com/investors"
+        ]
+      ]
+    },
+    {
+      "id": "stark",
+      "name": "STARK",
+      "country": "DE",
+      "origin": "Germany · 2024",
+      "category": "Drones",
+      "ownership": "Ownership unverified",
+      "summary": "Develops uncrewed defense systems for the air and maritime domains.",
+      "website": "https://stark-defence.com/en/",
+      "offices": [
+        [
+          "Corporate headquarters",
+          "DE",
+          "Berlin, Germany"
+        ]
+      ],
+      "products": [
+        [
+          "Virtus",
+          "Uncrewed aerial system",
+          "Air Vehicles",
+          "Hardware"
+        ],
+        [
+          "Vanta",
+          "Uncrewed surface vessel",
+          "Ground & Maritime Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and founding year",
+          "https://www.linkedin.com/company/stark-defence"
+        ],
+        [
+          "Systems and public demonstrations",
+          "https://stark-defence.com/en/news/europe-s-top-defence-investor-becomes-ceo-of-stark"
+        ]
+      ]
+    },
+    {
+      "id": "tytan-technologies",
+      "name": "TYTAN Technologies",
+      "country": "DE",
+      "origin": "Germany · 2023",
+      "category": "Counter-Drones",
+      "ownership": "Private",
+      "summary": "Develops drone interception and air-defense command-and-control systems.",
+      "website": "https://www.tytan-technologies.com/",
+      "offices": [
+        [
+          "Corporate headquarters",
+          "DE",
+          "Munich, Germany"
+        ]
+      ],
+      "products": [
+        [
+          "METIS",
+          "Counter-drone interceptor",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": "€46M total disclosed · February 2026",
+      "employees": null,
+      "investors": [
+        "Armira",
+        "NATO Innovation Fund",
+        "Visionaries Club",
+        "OTB Ventures",
+        "Lakestar",
+        "Magnetic",
+        "D3",
+        "10x Group"
+      ],
+      "founders": [
+        "Balazs Nagy",
+        "Batuhan Yumurtaci"
+      ],
+      "customers": [
+        "Armed Forces of Ukraine",
+        "Bundeswehr procurement office (BAAINBw)"
+      ],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Products",
+          "https://www.tytan-technologies.com/"
+        ],
+        [
+          "Funding, founders and customers",
+          "https://www.tytan-technologies.com/blog-posts/tytan-raises-30-mio"
+        ],
+        [
+          "Munich headquarters",
+          "https://www.tytan-technologies.com/blog-posts/office-opening"
+        ]
+      ]
+    },
+    {
+      "id": "alpine-eagle",
+      "name": "Alpine Eagle",
+      "country": "DE",
+      "origin": "Germany · 2023",
+      "category": "Counter-Drones",
+      "ownership": "Private",
+      "summary": "Develops airborne sensing and software for detecting and tracking drones.",
+      "website": "https://alpineeagle.com/",
+      "offices": [
+        [
+          "Company office",
+          "DE",
+          "Munich, Germany"
+        ],
+        [
+          "Germany office",
+          "DE",
+          "Karlsruhe, Germany"
+        ],
+        [
+          "UK office",
+          "GB",
+          "London, UK"
+        ]
+      ],
+      "products": [
+        [
+          "Sentinel",
+          "Airborne counter-drone system",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "Sentinel-OS",
+          "Counter-drone sensor software",
+          "Counter-Drone Systems",
+          "Software"
+        ]
+      ],
+      "funding": "€10.25M seed round · March 2025",
+      "employees": null,
+      "investors": [
+        "IQ Capital",
+        "HTGF"
+      ],
+      "founders": [
+        "Jan-Hendrik Boelens",
+        "Timo Breuer"
+      ],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and office cities",
+          "https://alpineeagle.com/about-us/"
+        ],
+        [
+          "Founders and seed round",
+          "https://www.munich-startup.de/en/108436/alpine-eagle-seed-financing/"
+        ],
+        [
+          "Investor portfolio and products",
+          "https://www.htgf.de/en/portfolio/htgffamily/alpine-eagle/"
+        ]
+      ]
+    },
+    {
+      "id": "donaustahl",
+      "name": "Donaustahl",
+      "country": "DE",
+      "origin": "Germany · active since 2020",
+      "category": "Weapons & Fire Control",
+      "ownership": "Private company · GmbH",
+      "summary": "Develops components and systems for the security and defense sector.",
+      "website": "https://www.donaustahl.com/",
+      "offices": [
+        [
+          "Registered office",
+          "DE",
+          "Hutthurm, Germany",
+          "Alte Straße 4"
+        ]
+      ],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and investment sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company activities and address",
+          "https://www.donaustahl.com/"
+        ],
+        [
+          "Legal notice",
+          "https://www.donaustahl.com/en/impressum"
+        ]
+      ]
+    },
+    {
+      "id": "ramon-space",
+      "name": "Ramon.Space",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Satellite Platforms & Payloads",
+      "ownership": "Ownership unverified",
+      "summary": "Develops onboard computing and storage for satellites and other spacecraft.",
+      "website": "https://ramon.space/",
+      "offices": [
+        [
+          "Israel office",
+          "IL",
+          "Yokneam, Israel"
+        ]
+      ],
+      "products": [
+        [
+          "NuPod",
+          "Space-resilient onboard computing platform.",
+          "Spacecraft & Onboard Hardware",
+          "Hardware",
+          "https://ramon.space/product/"
+        ],
+        [
+          "NuStream",
+          "Storage for spacecraft data processing.",
+          "Spacecraft & Onboard Hardware",
+          "Hardware",
+          "https://ramon.space/press/ramon-space-announces-high-capacity-space-resilient-storage-solution/"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [
+        "Israel Space Agency (computing payload selection)"
+      ],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Israel Space Agency company profile",
+          "https://www.space.gov.il/node/134104"
+        ],
+        [
+          "Space agency payload selection",
+          "https://ramon.space/press/israel-space-agency-selects-ramon-space-for-computing-payload/"
+        ]
+      ]
+    },
+    {
+      "id": "asterra",
+      "name": "ASTERRA",
+      "country": "IL",
+      "origin": "Israel · founded as Utilis",
+      "category": "Earth Observation & Space Intelligence",
+      "ownership": "Ownership unverified",
+      "summary": "Uses satellite data to identify infrastructure and water-network issues.",
+      "website": "https://asterra.io/",
+      "offices": [
+        [
+          "Israel office",
+          "IL",
+          "Kfar Saba, Israel"
+        ]
+      ],
+      "products": [
+        [
+          "Recover",
+          "Satellite-based analytics for water distribution leaks.",
+          "Earth Observation Data & Analytics",
+          "Service",
+          "https://asterra.io/solutions/recover/"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company background",
+          "https://asterra.io/wp-content/uploads/2022/05/Corporate-Capabilities-Digital-A4-0923.pdf"
+        ],
+        [
+          "Office locations",
+          "https://asterra.io/contact-us/"
+        ]
+      ]
+    },
+    {
+      "id": "reflex-aerospace",
+      "name": "Reflex Aerospace",
+      "country": "DE",
+      "origin": "Germany · 2021",
+      "category": "Satellite Platforms & Payloads",
+      "ownership": "Ownership unverified",
+      "summary": "Develops small satellite platforms tailored to customer payloads.",
+      "website": "https://www.reflexaerospace.com/",
+      "offices": [
+        [
+          "Germany office",
+          "DE",
+          "Munich, Germany"
+        ],
+        [
+          "Design office",
+          "DE",
+          "Berlin, Germany"
+        ]
+      ],
+      "products": [
+        [
+          "Custom satellite platforms",
+          "Spacecraft platforms designed around mission and payload requirements.",
+          "Spacecraft & Onboard Hardware",
+          "Hardware",
+          "https://www.reflexaerospace.com/why-reflex"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Founding and bases",
+          "https://www.bayern-innovativ.de/en/kompetenzen/techhub-svi-competencies/reflex-aerospace-gmbh/"
+        ]
+      ]
+    },
+    {
+      "id": "isar-aerospace",
+      "name": "Isar Aerospace",
+      "country": "DE",
+      "origin": "Germany",
+      "category": "Launch & Space Logistics",
+      "ownership": "Ownership unverified",
+      "summary": "Develops launch vehicles and provides launch services for satellites.",
+      "website": "https://www.isaraero.space/",
+      "offices": [
+        [
+          "Company base",
+          "DE",
+          "Ottobrunn, Germany"
+        ]
+      ],
+      "products": [
+        [
+          "Spectrum",
+          "Small-satellite launch vehicle.",
+          "Launch & Orbital Services",
+          "Hardware",
+          "https://www.isaraero.space/spectrum"
+        ],
+        [
+          "Satellite launch services",
+          "Orbital launch services for customer payloads.",
+          "Launch & Orbital Services",
+          "Service",
+          "https://isaraerospace.com/mission-updates-overview"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Spectrum launch and German origin",
+          "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe"
+        ],
+        [
+          "Company base",
+          "https://www.tagesschau.de/wissen/isar-aerospace-rakete-102.html"
+        ]
+      ]
+    },
+    {
+      "id": "leaf-space",
+      "name": "Leaf Space",
+      "country": "IT",
+      "origin": "Italy",
+      "category": "Satellite Connectivity & Ground Systems",
+      "ownership": "Ownership unverified",
+      "summary": "Operates a distributed ground station network for satellite operators.",
+      "website": "https://leaf.space/",
+      "offices": [
+        [
+          "Company base",
+          "IT",
+          "Lomazzo, Italy"
+        ]
+      ],
+      "products": [
+        [
+          "Ground Segment as a Service",
+          "Shared satellite ground infrastructure and communications access.",
+          "Satellite Networks & Ground Services",
+          "Service",
+          "https://leaf.space/who-we-are/"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Italian space industry listing",
+          "https://italianspaceindustry.it/listing/leaf-space-s-r-l/"
+        ],
+        [
+          "Company location",
+          "https://it.linkedin.com/company/leaf-space"
+        ]
+      ]
+    },
+    {
+      "id": "liveeo",
+      "name": "LiveEO",
+      "country": "DE",
+      "origin": "Germany",
+      "category": "Earth Observation & Space Intelligence",
+      "ownership": "Ownership unverified",
+      "summary": "Applies satellite imagery and analysis to infrastructure monitoring and supply chains.",
+      "website": "https://www.live-eo.com/",
+      "offices": [
+        [
+          "Company base",
+          "DE",
+          "Berlin, Germany"
+        ]
+      ],
+      "products": [
+        [
+          "Satellite infrastructure monitoring",
+          "Analytics for vegetation and other risks around infrastructure.",
+          "Earth Observation Data & Analytics",
+          "Service",
+          "https://www.live-eo.com/company/about-us"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "European Innovation Council profile",
+          "https://eic.ec.europa.eu/eic-fund/eic-fund-invested-companies/liveeo_en"
+        ],
+        [
+          "Berlin and use cases",
+          "https://techportal.epri.com/developers/d96f0ad2-3c2e-9402-c344-fd58721e8b7c-draft"
+        ]
+      ]
+    },
+    {
+      "id": "impulse-space",
+      "name": "Impulse Space",
+      "country": "US",
+      "origin": "United States",
+      "category": "Launch & Space Logistics",
+      "ownership": "Ownership unverified",
+      "summary": "Develops in-space transportation vehicles and orbital mobility services.",
+      "website": "https://www.impulsespace.com/",
+      "offices": [
+        [
+          "Company base",
+          "US",
+          "Redondo Beach, California, US"
+        ]
+      ],
+      "products": [
+        [
+          "Mira",
+          "Orbital maneuvering spacecraft.",
+          "Launch & Orbital Services",
+          "Hardware",
+          "https://www.impulsespace.com/"
+        ],
+        [
+          "Helios",
+          "In-space transportation vehicle for longer-distance transfers.",
+          "Launch & Orbital Services",
+          "Hardware",
+          "https://www.impulsespace.com/"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [
+        "Tom Mueller"
+      ],
+      "customers": [
+        "U.S. Space Force (NSSL Lane 1 contract vehicle)"
+      ],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and founder",
+          "https://www.impulsespace.com/about"
+        ],
+        [
+          "Company base and award",
+          "https://www.impulsespace.com/updates/impulse-space-awarded-nssl-lane-1-contract-as-first-ever-upper-stage-prime"
+        ]
+      ]
+    },
+    {
+      "id": "astranis",
+      "name": "Astranis",
+      "country": "US",
+      "origin": "United States · 2015",
+      "category": "Satellite Connectivity & Ground Systems",
+      "ownership": "Ownership unverified",
+      "summary": "Builds compact geostationary satellites for dedicated broadband connectivity.",
+      "website": "https://www.astranis.com/",
+      "offices": [
+        [
+          "Company base",
+          "US",
+          "San Francisco, California, US"
+        ]
+      ],
+      "products": [
+        [
+          "MicroGEO",
+          "Small geostationary satellites for dedicated connectivity.",
+          "Satellite Networks & Ground Services",
+          "Hardware",
+          "https://www.astranis.com/lp/microgeo-satellites"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [
+        "John Gedmark",
+        "Ryan McLinko"
+      ],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company base",
+          "https://www.astranis.com/contact"
+        ],
+        [
+          "Founding and early satellite milestone",
+          "https://www.astranis.com/blog/first-astranis-satellite-successfully-deployed-to-geo-beams-first-signals-down-to-alaska-257ba"
+        ]
+      ]
+    },
+    {
+      "id": "xona-space",
+      "name": "Xona Space Systems",
+      "country": "US",
+      "origin": "United States",
+      "category": "Navigation & Communications",
+      "ownership": "Ownership unverified",
+      "summary": "Develops a low Earth orbit positioning, navigation, and timing service.",
+      "website": "https://www.xonaspace.com/",
+      "offices": [
+        [
+          "Company base",
+          "US",
+          "Burlingame, California, US"
+        ]
+      ],
+      "products": [
+        [
+          "Pulsar",
+          "Satellite-based positioning, navigation, and timing constellation.",
+          "Navigation & Communications",
+          "Service",
+          "https://www.xonaspace.com/pulsar"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "U.S. SBIR company profile",
+          "https://www.sbir.gov/portfolio/1612455"
+        ],
+        [
+          "Constellation deployment plans",
+          "https://www.xonaspace.com/news/pulsars-first-deployment"
+        ]
+      ]
+    },
+    {
+      "id": "overland-ai",
+      "name": "Overland AI",
+      "country": "US",
+      "origin": "United States",
+      "category": "Ground Robotics",
+      "ownership": "Ownership unverified",
+      "summary": "Develops autonomous ground vehicles and autonomy systems for existing fleets.",
+      "website": "https://www.overland.ai/",
+      "offices": [
+        [
+          "Company office",
+          "US",
+          "Seattle, Washington, US"
+        ]
+      ],
+      "products": [
+        [
+          "ULTRA",
+          "Autonomous ground vehicle.",
+          "Ground & Maritime Vehicles",
+          "Hardware",
+          "https://www.overland.ai/news/overland-ai-unveils-ultra-a-fully-autonomous-tactical-vehicle-for-ground-operations"
+        ],
+        [
+          "SPARK",
+          "Retrofit autonomy system for ground vehicles.",
+          "Ground & Maritime Vehicles",
+          "Hardware",
+          "https://www.overland.ai/news/overland-ai-launches-spark-to-deliver-instant-vehicle-autonomy-to-military-fleets"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company locations",
+          "https://www.overland.ai/facilities"
+        ]
+      ]
+    },
+    {
+      "id": "airspace-link",
+      "name": "Airspace Link",
+      "country": "US",
+      "origin": "United States",
+      "category": "Airspace Management",
+      "ownership": "Ownership unverified",
+      "summary": "Builds tools for planning drone flights and accessing airspace information.",
+      "website": "https://airspacelink.com/",
+      "offices": [
+        [
+          "Headquarters",
+          "US",
+          "Detroit, Michigan, US"
+        ]
+      ],
+      "products": [
+        [
+          "AirHub Portal",
+          "Drone flight planning and airspace information software.",
+          "Airspace & Fleet Management",
+          "Software",
+          "https://airspacelink.com/airhubportal"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Headquarters",
+          "https://airspacelink.com/contact"
+        ],
+        [
+          "Platform overview",
+          "https://airspacelink.com/airspace-link-airhub-portal-overview"
+        ]
+      ]
+    },
+    {
+      "id": "picogrid",
+      "name": "Picogrid",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Ownership unverified",
+      "summary": "Develops integration software for sensors, platforms, and operations systems.",
+      "website": "https://picogrid.com/",
+      "offices": [
+        [
+          "Company base",
+          "US",
+          "El Segundo, California, US"
+        ]
+      ],
+      "products": [
+        [
+          "Legion",
+          "Operations software for connecting and managing distributed systems.",
+          "Command & Intelligence Software",
+          "Software",
+          "https://picogrid.com/legion"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [
+        "U.S. Air Force (open integration layer award)"
+      ],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "U.S. Air Force contract and location",
+          "https://picogrid.com/newsroom/picogrid-wins-a-usd9-3m-air-force-award-for-its-open-integration-layer"
+        ]
+      ]
+    },
+    {
+      "id": "allen-control",
+      "name": "Allen Control Systems",
+      "country": "US",
+      "origin": "United States",
+      "category": "Weapons & Fire Control",
+      "ownership": "Ownership unverified",
+      "summary": "Develops automated fire-control systems with counter-drone applications.",
+      "website": "https://www.allencontrolsystems.com/",
+      "offices": [
+        [
+          "U.S. company presence",
+          "US",
+          "Austin, Texas, US"
+        ]
+      ],
+      "products": [
+        [
+          "Bullfrog",
+          "Robotic counter-drone fire-control system.",
+          "Fire Control & Payloads",
+          "Hardware",
+          "https://www.allencontrolsystems.com/"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Public company and product sources reviewed for the tracker",
+      "sources": [
+        [
+          "Company and team",
+          "https://www.allencontrolsystems.com/company"
+        ],
+        [
+          "Product and Austin presence",
+          "https://www.allencontrolsystems.com/"
+        ]
+      ]
+    },
+    {
+      "id": "bluebird-aero",
+      "name": "BlueBird Aero Systems",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Drones",
+      "ownership": "Ownership details not verified",
+      "summary": "Israeli developer of micro, mini and tactical UAVs, including hybrid VTOL fixed-wing aircraft.",
+      "website": "https://bluebird-uav.com/",
+      "offices": [
+        [
+          "Israeli operations",
+          "IL",
+          "Israel"
+        ]
+      ],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · Nov 9 Israeli edition; received mobile UAV command-and-control center from Rimon Agencies.",
+      "sources": [
+        [
+          "C2 delivery announcement",
+          "https://www.globenewswire.com/news-release/2026/11/05/3397065/0/en/t3-defense-delivers-a-uav-command-control-center-to-bluebird-aero-systems.html"
+        ]
+      ]
+    },
+    {
+      "id": "rimon-agencies",
+      "name": "Rimon Agencies",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Command & Control",
+      "ownership": "Subsidiary of T3 Defense",
+      "summary": "Israeli defense integrator supplying deployable UAV command-and-control infrastructure.",
+      "website": "",
+      "offices": [
+        [
+          "Israeli operations",
+          "IL",
+          "Netanya, Israel"
+        ]
+      ],
+      "products": [
+        [
+          "Mobile UAV C2 Container",
+          "Containerized UAV command center with onboard power, communications masts, datalink infrastructure and operator workstations",
+          "Command & Intelligence Software",
+          "Hardware"
+        ],
+        [
+          "Mobile UAV command center",
+          "Ground control center delivered to BlueBird per November coverage",
+          "Command & Intelligence Software",
+          "Hardware",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [
+        "BlueBird Aero Systems (announced delivery, Nov 2026)"
+      ],
+      "coverage": "The Payload · Nov 9 Israeli edition.",
+      "sources": [
+        [
+          "Delivery and ownership",
+          "https://www.globenewswire.com/news-release/2026/11/05/3397065/0/en/t3-defense-delivers-a-uav-command-control-center-to-bluebird-aero-systems.html"
+        ],
+        [
+          "Product coverage",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "parentCompanyId": "t3-defense"
+    },
+    {
+      "id": "t3-defense",
+      "name": "T3 Defense",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Public · Nasdaq: DFNS",
+      "summary": "Defense business group whose Israeli subsidiary Rimon Agencies provides UAV command-and-control infrastructure.",
+      "website": "",
+      "offices": [
+        [
+          "Corporate presence",
+          "US",
+          "New York, US"
+        ]
+      ],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · Nov 9 Israeli edition; Rimon Agencies mobile UAV C2 delivery.",
+      "sources": [
+        [
+          "Corporate ownership and delivery",
+          "https://www.globenewswire.com/news-release/2026/11/05/3397065/0/en/t3-defense-delivers-a-uav-command-control-center-to-bluebird-aero-systems.html"
+        ]
+      ]
+    },
+    {
+      "id": "ondas",
+      "name": "Ondas Inc.",
+      "country": "US",
+      "origin": "United States",
+      "category": "Counter-Drones",
+      "ownership": "Public · Nasdaq: ONDS",
+      "summary": "Autonomous defense and counter-UAS company with Israeli counter-drone technology operations.",
+      "website": "https://www.ondas.com/",
+      "offices": [
+        [
+          "Corporate HQ",
+          "US",
+          "West Palm Beach, Florida, US"
+        ]
+      ],
+      "products": [
+        [
+          "Ranger",
+          "Portable counter-UAS system; European police order announced",
+          "Counter-Drone Systems",
+          "Hardware",
+          "https://www.ondas.com/post/ondas-secures-multi-million-dollar-counter-uas-contracts-in-europe-and-asia-accelerating-global-exp"
+        ],
+        [
+          "Iron Drone Raider",
+          "Autonomous counter-UAS interceptor system",
+          "Counter-Drone Systems",
+          "Hardware",
+          "https://www.ondas.com/post/ondas-secures-multi-million-dollar-counter-uas-contracts-in-europe-and-asia-accelerating-global-exp"
+        ],
+        [
+          "Digital Bat",
+          "Tactical unmanned aircraft manufacturing program; purchase order announced November 10",
+          "Drones",
+          "Hardware",
+          "https://ir.ondas.com/press-releases/detail/340/ondas-receives-purchase-order-for-next-generation-tactical"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [
+        "Unnamed European police organization (Nov 2026 order)",
+        "Unnamed Asian government customer (Nov 2026 order)"
+      ],
+      "coverage": "The Payload · Nov 9 Israeli edition; European and Asian counter-UAS contracts.",
+      "sources": [
+        [
+          "November contracts and product details",
+          "https://ir.ondas.com/press-releases/detail/338/ondas-secures-multi-million-dollar-counter-uas-contracts-in"
+        ],
+        [
+          "Group overview",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "SEC subsidiary exhibit",
+          "https://ir.ondas.com/annual-reports/content/0001213900-26-035981/ea028291101ex21-1.htm"
+        ],
+        [
+          "Product coverage",
+          "https://www.ondas.com/post/ondas-secures-multi-million-dollar-counter-uas-contracts-in-europe-and-asia-accelerating-global-exp"
+        ],
+        [
+          "Product coverage",
+          "https://ir.ondas.com/press-releases/detail/340/ondas-receives-purchase-order-for-next-generation-tactical"
+        ]
+      ]
+    },
+    {
+      "id": "israel-weapon-industries",
+      "name": "Israel Weapon Industries (IWI)",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Weapons & Fire Control",
+      "ownership": "Private · ownership not verified here",
+      "summary": "Israeli small-arms and fire-control manufacturer; Arbel system has counter-drone applications.",
+      "website": "https://iwi.net/",
+      "offices": [
+        [
+          "Israeli operations",
+          "IL",
+          "Israel"
+        ]
+      ],
+      "products": [
+        [
+          "Arbel",
+          "Computerized fire-control system; counter-UAS application reported",
+          "Weapons & Fire Control",
+          "Hardware",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [
+        "Thailand (reported counter-drone fielding)"
+      ],
+      "coverage": "The Payload · Nov 9 Israeli edition; November 5 reporting on Arbel in Thailand.",
+      "sources": [
+        [
+          "Arbel reporting",
+          "https://www.defensenews.com/news/2026/11/05/israeli-defense-company-says-this-trigger-is-programmed-to-shoot-drones/"
+        ],
+        [
+          "Product coverage",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "aerovironment",
+      "name": "AeroVironment",
+      "country": "US",
+      "origin": "United States",
+      "category": "Counter-Drones",
+      "ownership": "Public · Nasdaq: AVAV",
+      "summary": "US defense technology company developing UAVs, loitering munitions and counter-UAS systems.",
+      "website": "https://www.avinc.com/",
+      "offices": [
+        [
+          "US operations",
+          "US",
+          "United States"
+        ]
+      ],
+      "products": [
+        [
+          "LOCUST",
+          "Laser-based directed-energy counter-UAS system",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "LOCUST X3",
+          "High-energy laser counter-UAS system; $405M international order announced November 11",
+          "Counter-Drone Systems",
+          "Hardware",
+          "https://www.avinc.com/2026/11/11/av-awarded-landmark-405-million-international-order-for-locust-x3-laser-defense-systems/"
+        ],
+        [
+          "Mayhem 10",
+          "Launched-effects platform; Elsight integration reported",
+          "Drones",
+          "Hardware",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · Nov 9 Israeli edition; reported LOCUST deployment protecting Mar-a-Lago.",
+      "sources": [
+        [
+          "LOCUST reporting",
+          "https://www.jpost.com/defense-and-tech/article-914211"
+        ],
+        [
+          "Product coverage",
+          "https://www.avinc.com/2026/11/11/av-awarded-landmark-405-million-international-order-for-locust-x3-laser-defense-systems/"
+        ],
+        [
+          "Product coverage",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "ondas-autonomous-systems",
+      "name": "Ondas Autonomous Systems",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Ondas group company",
+      "summary": "Ondas autonomous systems operating group.",
+      "website": "https://www.ondas.com/company-overview",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Ondas corporate group (2026).",
+      "sources": [
+        [
+          "Ondas overview",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "SEC subsidiary exhibit",
+          "https://ir.ondas.com/annual-reports/content/0001213900-26-035981/ea028291101ex21-1.htm"
+        ]
+      ],
+      "parentCompanyId": "ondas"
+    },
+    {
+      "id": "ondas-networks",
+      "name": "Ondas Networks",
+      "country": "US",
+      "origin": "United States",
+      "category": "Navigation & Communications",
+      "ownership": "Ondas group company",
+      "summary": "Private wireless broadband systems for mission-critical infrastructure.",
+      "website": "https://www.ondasnetworks.com/",
+      "offices": [],
+      "products": [
+        [
+          "FullMAX",
+          "Mission-critical private wireless broadband",
+          "Command & Intelligence Software",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Ondas corporate group (2026).",
+      "sources": [
+        [
+          "Ondas overview",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "SEC subsidiary exhibit",
+          "https://ir.ondas.com/annual-reports/content/0001213900-26-035981/ea028291101ex21-1.htm"
+        ]
+      ],
+      "parentCompanyId": "ondas"
+    },
+    {
+      "id": "ondas-capital",
+      "name": "Ondas Capital",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Ondas group company",
+      "summary": "Advisory and strategic investment management for autonomous defense technologies.",
+      "website": "https://www.ondas.com/company-overview",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Ondas corporate group (2026).",
+      "sources": [
+        [
+          "Ondas overview",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "SEC subsidiary exhibit",
+          "https://ir.ondas.com/annual-reports/content/0001213900-26-035981/ea028291101ex21-1.htm"
+        ]
+      ],
+      "parentCompanyId": "ondas"
+    },
+    {
+      "id": "american-robotics",
+      "name": "American Robotics",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ondas group company",
+      "summary": "Automated drone-in-a-box systems for persistent aerial intelligence.",
+      "website": "https://www.american-robotics.com/",
+      "offices": [],
+      "products": [
+        [
+          "Optimus System",
+          "Autonomous drone-in-a-box",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Ondas corporate group (2026).",
+      "sources": [
+        [
+          "Ondas overview",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "SEC subsidiary exhibit",
+          "https://ir.ondas.com/annual-reports/content/0001213900-26-035981/ea028291101ex21-1.htm"
+        ]
+      ],
+      "parentCompanyId": "ondas-autonomous-systems"
+    },
+    {
+      "id": "apeiro-motion",
+      "name": "Apeiro Motion",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Ground Robotics",
+      "ownership": "Ondas group company",
+      "summary": "Israeli ground robotics and tethered UAV technology.",
+      "website": "https://www.apeiro-motion.com/",
+      "offices": [],
+      "products": [
+        [
+          "Tethered UAV systems",
+          "Tethered aerial systems",
+          "Air Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Ondas corporate group (2026).",
+      "sources": [
+        [
+          "Ondas overview",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "SEC subsidiary exhibit",
+          "https://ir.ondas.com/annual-reports/content/0001213900-26-035981/ea028291101ex21-1.htm"
+        ]
+      ],
+      "parentCompanyId": "ondas-autonomous-systems"
+    },
+    {
+      "id": "roboteam",
+      "name": "Roboteam",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Ground Robotics",
+      "ownership": "Ondas group company",
+      "summary": "Israeli military tactical unmanned ground vehicles.",
+      "website": "https://www.robo-team.com/",
+      "offices": [],
+      "products": [
+        [
+          "Tactical UGVs",
+          "Military unmanned ground robots",
+          "Ground Robotics",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "Ondas corporate group (2026).",
+      "sources": [
+        [
+          "Ondas overview",
+          "https://www.ondas.com/company-overview"
+        ],
+        [
+          "SEC subsidiary exhibit",
+          "https://ir.ondas.com/annual-reports/content/0001213900-26-035981/ea028291101ex21-1.htm"
+        ]
+      ],
+      "parentCompanyId": "ondas-autonomous-systems"
+    },
+    {
+      "id": "kongsberg",
+      "name": "Kongsberg Gruppen",
+      "country": "NO",
+      "origin": "Norway",
+      "category": "Counter-Drones",
+      "ownership": "Publicly listed Norwegian defense and technology group",
+      "summary": "Developer and supplier of air-defense and command-and-control systems. Its DESNA counter-UAS system, jointly developed with an unnamed Ukrainian partner, combines Ukrainian missiles and launchers with Kongsberg fire control; announced as delivered and operational in Ukraine in November 2026.",
+      "website": "https://www.kongsberg.com/",
+      "products": [
+        [
+          "DESNA",
+          "Jointly developed Ukrainian-Norwegian air-defense system integrating Ukrainian missiles and launchers with Kongsberg's fire command-and-control technology; Kongsberg announced deliveries to Ukraine on 24 November 2026.",
+          "Counter-Drone Systems",
+          "Hardware",
+          "https://www.kongsberg.com/news/news-archive/2026/kongsberg-delivers-the-desna-air-defence-system-to-ukraine/"
+        ]
+      ],
+      "coverage": "The Payload · 25 November 2026 directory update; DESNA deployment.",
+      "sources": [
+        [
+          "DESNA delivery announcement (24 Nov 2026)",
+          "https://www.kongsberg.com/news/news-archive/2026/kongsberg-delivers-the-desna-air-defence-system-to-ukraine/"
+        ],
+        [
+          "Norwegian-Ukrainian counter-UAS cooperation (Reuters)",
+          "https://www.reuters.com/world/europe/norway-ukraine-expand-cooperation-anti-drone-system-2026-11-24/"
+        ]
+      ],
+      "offices": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": []
+    },
+    {
+      "id": "ukraine-defence-innovation-center",
+      "name": "Center for Innovation and Development of Defence Technologies (Ukraine MoD)",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Command & Control",
+      "ownership": "Ukrainian Ministry of Defence · government defense technology development center (not a commercial company)",
+      "summary": "Ukrainian Ministry of Defence development center responsible for DELTA, an integrated battlefield-management digital ecosystem. Germany signed a letter of intent on 24 November 2026 to cooperate on DELTA development, implementation and use; this is not a commercial sale or a confirmed deployment in Germany.",
+      "website": "https://mod.gov.ua/en",
+      "products": [
+        [
+          "DELTA",
+          "Ukraine's military digital ecosystem for situational awareness, intelligence integration, operational planning and combat mission management. Germany's future access is covered by a November 2026 letter of intent.",
+          "Command & Intelligence Software",
+          "Software",
+          "https://mod.gov.ua/en/news/delta-combat-system-germany-first"
+        ]
+      ],
+      "coverage": "The Payload · 25 November 2026 directory update; DELTA partnership with Germany.",
+      "sources": [
+        [
+          "Ukrainian Ministry of Defence: DELTA and German letter of intent (24 Nov 2026)",
+          "https://mod.gov.ua/en/news/delta-combat-system-germany-first"
+        ],
+        [
+          "Government of Ukraine DELTA announcement",
+          "https://www.kmu.gov.ua/en/news/nimechchyna-stane-pershoiu-krainoiu-iakii-ukraina-nadast-dostup-do-delta"
+        ]
+      ],
+      "offices": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": []
+    },
+    {
+      "id": "ford-motor",
+      "name": "Ford Motor Company",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Public automotive manufacturer · prospective defense-drone supply-chain participant, not a confirmed drone producer",
+      "summary": "Automotive manufacturer approached in reported U.S. Pentagon industrial talks concerning potential drone-related supply-chain capacity. As of 25 November 2026, no drone production agreement was confirmed; Ford separately described its Pentagon talks as involving military vehicles and other defense products.",
+      "website": "https://www.ford.com/",
+      "products": [],
+      "coverage": "The Payload · 25 November 2026 watchlist; preliminary U.S. drone manufacturing discussions, unconfirmed participation.",
+      "sources": [
+        [
+          "Reuters: Ford on Pentagon discussions (24 Nov 2026)",
+          "https://www.reuters.com/business/autos-transportation/pentagon-talks-with-general-motors-ford-military-drones-wsj-reports-2026-11-24/"
+        ],
+        [
+          "Wall Street Journal: reported automotive drone talks",
+          "https://www.wsj.com/politics/national-security/ford-general-motors-military-drones-c082d202"
+        ]
+      ],
+      "offices": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": []
+    },
+    {
+      "id": "general-motors",
+      "name": "General Motors",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Public automotive manufacturer · prospective defense-drone component supplier, not a confirmed drone producer",
+      "summary": "Reportedly discussing potential military-drone component manufacturing with the U.S. Pentagon, including consideration of drone motors. These were preliminary talks reported on 24 November 2026, not a confirmed contract or production program.",
+      "website": "https://www.gm.com/",
+      "products": [],
+      "coverage": "The Payload · 25 November 2026 watchlist; reported evaluation of military-drone motors.",
+      "sources": [
+        [
+          "Wall Street Journal: Pentagon automotive supply chain talks (24 Nov 2026)",
+          "https://www.wsj.com/politics/national-security/ford-general-motors-military-drones-c082d202"
+        ],
+        [
+          "Reuters: preliminary drone talks (24 Nov 2026)",
+          "https://www.reuters.com/business/autos-transportation/pentagon-talks-with-general-motors-ford-military-drones-wsj-reports-2026-11-24/"
+        ]
+      ],
+      "offices": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": []
+    },
+    {
+      "id": "magna-international",
+      "name": "Magna International",
+      "country": "CA",
+      "origin": "Canada",
+      "category": "Drones",
+      "ownership": "Public automotive component manufacturer · prospective defense-drone supply-chain participant, not a confirmed drone supplier",
+      "summary": "Canadian automotive component manufacturer whose executives reportedly met U.S. defense officials about potential industrial participation in military-drone production. No firm contract, specific drone components, or manufacturing commitment was confirmed as of 25 November 2026.",
+      "website": "https://www.magna.com/",
+      "products": [],
+      "coverage": "The Payload · 25 November 2026 watchlist; reported Pentagon industrial discussions, no confirmed order.",
+      "sources": [
+        [
+          "Wall Street Journal: Pentagon automotive supply chain talks (24 Nov 2026)",
+          "https://www.wsj.com/politics/national-security/ford-general-motors-military-drones-c082d202"
+        ],
+        [
+          "Reuters: preliminary Pentagon discussions (24 Nov 2026)",
+          "https://www.reuters.com/business/autos-transportation/pentagon-talks-with-general-motors-ford-military-drones-wsj-reports-2026-11-24/"
+        ]
+      ],
+      "offices": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": []
+    },
+    {
+      "id": "anduril",
+      "name": "Anduril Industries",
+      "country": "US",
+      "origin": "United States",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Counter-UAS and autonomous defense systems",
+      "website": "https://www.anduril.com/",
+      "offices": [],
+      "products": [
+        [
+          "Anvil",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "Spyglass",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "Pulsar",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.anduril.com/"
+        ]
+      ]
+    },
+    {
+      "id": "iai",
+      "name": "Israel Aerospace Industries",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "State-owned aerospace and defense manufacturer",
+      "website": "https://www.iai.co.il/",
+      "offices": [],
+      "products": [
+        [
+          "Heron",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ],
+        [
+          "Barak MX",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.iai.co.il/"
+        ]
+      ]
+    },
+    {
+      "id": "rafael",
+      "name": "Rafael Advanced Defense Systems",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Israeli state-owned defense systems manufacturer",
+      "website": "https://www.rafael.co.il/",
+      "offices": [],
+      "products": [
+        [
+          "Drone Dome",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "Iron Beam",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.rafael.co.il/"
+        ]
+      ]
+    },
+    {
+      "id": "elbit",
+      "name": "Elbit Systems",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Public defense group with UAV and electronic warfare businesses",
+      "website": "https://elbitsystems.com/",
+      "offices": [],
+      "products": [
+        [
+          "Hermes 450",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ],
+        [
+          "Hermes 900",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://elbitsystems.com/"
+        ]
+      ]
+    },
+    {
+      "id": "tsg",
+      "name": "TSG",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Command & Control",
+      "ownership": "Ownership details pending review",
+      "summary": "Defense command and control software",
+      "website": "https://www.tsgitsystems.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.tsgitsystems.com/"
+        ]
+      ]
+    },
+    {
+      "id": "auterion",
+      "name": "Auterion",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Ownership details pending review",
+      "summary": "Drone software and avionics; German-Ukrainian production cooperation with SkyFall",
+      "website": "https://auterion.com/",
+      "offices": [],
+      "products": [
+        [
+          "AuterionOS",
+          "Product identified in coverage; details pending review",
+          "Command & Intelligence Software",
+          "Software"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://auterion.com/"
+        ]
+      ]
+    },
+    {
+      "id": "quantum-frontline",
+      "name": "Quantum Frontline Industries",
+      "country": "DE",
+      "origin": "Germany",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "German-Ukrainian manufacturing joint venture; exact expansion figures pending verification",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "nordic-air-defense",
+      "name": "Nordic Air Defence",
+      "country": "SE",
+      "origin": "Sweden",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Swedish interceptor developer; reported Ukrainian testing",
+      "website": "",
+      "offices": [],
+      "products": [
+        [
+          "K200",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "carmine-sky",
+      "name": "Carmine Sky",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Ukrainian developer of experimental laser counter-UAS technology",
+      "website": "",
+      "offices": [],
+      "products": [
+        [
+          "Blysk",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "indra",
+      "name": "Indra",
+      "country": "ES",
+      "origin": "Spain",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Defense electronics and counter-UAS integration; Spanish consortium with Escribano",
+      "website": "https://www.indracompany.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.indracompany.com/"
+        ]
+      ]
+    },
+    {
+      "id": "escribano",
+      "name": "Escribano Mechanical & Engineering",
+      "country": "ES",
+      "origin": "Spain",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Defense engineering and systems integration",
+      "website": "https://www.eme-es.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.eme-es.com/"
+        ]
+      ]
+    },
+    {
+      "id": "rannon",
+      "name": "Rannon",
+      "country": "LV",
+      "origin": "Latvia",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Latvian counter-drone technology developer; prototype stage",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "uforce",
+      "name": "Uforce",
+      "country": "GB",
+      "origin": "United Kingdom",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "UK-headquartered defense technology group with Ukrainian manufacturing interests; ownership details pending verification",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "knds",
+      "name": "KNDS",
+      "country": "FR",
+      "origin": "France",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "French-German defense group; maritime unmanned systems partnership with SeaOwl",
+      "website": "https://www.knds.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.knds.com/"
+        ]
+      ]
+    },
+    {
+      "id": "seaowl",
+      "name": "SeaOwl",
+      "country": "FR",
+      "origin": "France",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Maritime services and unmanned surface systems",
+      "website": "https://www.seaowlgroup.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.seaowlgroup.com/"
+        ]
+      ]
+    },
+    {
+      "id": "naval-group",
+      "name": "Naval Group",
+      "country": "FR",
+      "origin": "France",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Naval shipbuilding and unmanned systems integration",
+      "website": "https://www.naval-group.com/",
+      "offices": [],
+      "products": [
+        [
+          "SCX-26",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.naval-group.com/"
+        ]
+      ]
+    },
+    {
+      "id": "arkeus",
+      "name": "Arkeus",
+      "country": "AU",
+      "origin": "Australia",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Hyperspectral sensing and UAV payloads",
+      "website": "https://www.arkeus.com/",
+      "offices": [],
+      "products": [
+        [
+          "Warden",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.arkeus.com/"
+        ]
+      ]
+    },
+    {
+      "id": "insitu",
+      "name": "Insitu",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Boeing subsidiary; unmanned aircraft",
+      "website": "https://www.insitu.com/",
+      "offices": [],
+      "products": [
+        [
+          "Integrator",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.insitu.com/"
+        ]
+      ]
+    },
+    {
+      "id": "boeing",
+      "name": "Boeing",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Aerospace group and parent of Insitu",
+      "website": "https://www.boeing.com/",
+      "offices": [],
+      "products": [
+        [
+          "MQ-25",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.boeing.com/"
+        ]
+      ]
+    },
+    {
+      "id": "fire-point",
+      "name": "Fire Point",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Ukrainian unmanned aircraft manufacturer",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "skyeton",
+      "name": "Skyeton",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Long-endurance reconnaissance UAVs",
+      "website": "https://skyeton.com/",
+      "offices": [],
+      "products": [
+        [
+          "Raybird",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://skyeton.com/"
+        ]
+      ]
+    },
+    {
+      "id": "mobilicom",
+      "name": "Mobilicom",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Navigation & Communications",
+      "ownership": "Ownership details pending review",
+      "summary": "Drone communications and cybersecurity",
+      "website": "https://mobilicom.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://mobilicom.com/"
+        ]
+      ]
+    },
+    {
+      "id": "iceye",
+      "name": "ICEYE",
+      "country": "FI",
+      "origin": "Finland",
+      "category": "Earth Observation & Space Intelligence",
+      "ownership": "Ownership details pending review",
+      "summary": "Satellite radar imaging and sovereign space capabilities",
+      "website": "https://www.iceye.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.iceye.com/"
+        ]
+      ]
+    },
+    {
+      "id": "nokia",
+      "name": "Nokia",
+      "country": "FI",
+      "origin": "Finland",
+      "category": "Navigation & Communications",
+      "ownership": "Ownership details pending review",
+      "summary": "Communications infrastructure; reported sovereign satellite cooperation with Ukraine",
+      "website": "https://www.nokia.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.nokia.com/"
+        ]
+      ]
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "country": "US",
+      "origin": "United States",
+      "category": "Satellite Connectivity & Ground Systems",
+      "ownership": "Ownership details pending review",
+      "summary": "Satellite communications provider",
+      "website": "https://www.spacex.com/",
+      "offices": [],
+      "products": [
+        [
+          "Starlink",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ],
+        [
+          "Starshield",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.spacex.com/"
+        ]
+      ]
+    },
+    {
+      "id": "eutelsat",
+      "name": "Eutelsat Group / OneWeb",
+      "country": "FR",
+      "origin": "France",
+      "category": "Satellite Connectivity & Ground Systems",
+      "ownership": "Ownership details pending review",
+      "summary": "Satellite connectivity including OneWeb LEO network",
+      "website": "https://www.eutelsat.com/",
+      "offices": [],
+      "products": [
+        [
+          "OneWeb",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.eutelsat.com/"
+        ]
+      ]
+    },
+    {
+      "id": "ses",
+      "name": "SES",
+      "country": "LU",
+      "origin": "Luxembourg",
+      "category": "Satellite Connectivity & Ground Systems",
+      "ownership": "Ownership details pending review",
+      "summary": "Satellite connectivity",
+      "website": "https://www.ses.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.ses.com/"
+        ]
+      ]
+    },
+    {
+      "id": "hispasat",
+      "name": "Hispasat",
+      "country": "ES",
+      "origin": "Spain",
+      "category": "Satellite Connectivity & Ground Systems",
+      "ownership": "Ownership details pending review",
+      "summary": "Satellite communications",
+      "website": "https://www.hispasat.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.hispasat.com/"
+        ]
+      ]
+    },
+    {
+      "id": "ise",
+      "name": "International Submarine Engineering",
+      "country": "CA",
+      "origin": "Canada",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Underwater robotics; acquisition by Elbit reported in October draft",
+      "website": "https://ise.bc.ca/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://ise.bc.ca/"
+        ]
+      ]
+    },
+    {
+      "id": "edge",
+      "name": "EDGE Group",
+      "country": "AE",
+      "origin": "United Arab Emirates",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Defense technology group and reported investor in High Lander",
+      "website": "https://edgegroup.ae/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://edgegroup.ae/"
+        ]
+      ]
+    },
+    {
+      "id": "unusual-machines",
+      "name": "Unusual Machines",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Drone component manufacturer; Upgrade Energy acquisition reported",
+      "website": "https://www.unusualmachines.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.unusualmachines.com/"
+        ]
+      ]
+    },
+    {
+      "id": "upgrade-energy",
+      "name": "Upgrade Energy",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Drone battery supplier",
+      "website": "https://upgradeenergy.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://upgradeenergy.com/"
+        ]
+      ]
+    },
+    {
+      "id": "liveu",
+      "name": "LiveU",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Navigation & Communications",
+      "ownership": "Ownership details pending review",
+      "summary": "Video transmission technology; drone workflow partnership",
+      "website": "https://www.liveu.tv/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.liveu.tv/"
+        ]
+      ]
+    },
+    {
+      "id": "airwise",
+      "name": "Airwise",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Ownership details pending review",
+      "summary": "Drone workflow software; identity and website pending verification",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "lantronix",
+      "name": "Lantronix",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Ownership details pending review",
+      "summary": "Embedded computing and robotics platforms",
+      "website": "https://www.lantronix.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.lantronix.com/"
+        ]
+      ]
+    },
+    {
+      "id": "redwire",
+      "name": "Redwire",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Space and defense technology group with unmanned systems",
+      "website": "https://redwirespace.com/",
+      "offices": [],
+      "products": [
+        [
+          "Stalker",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://redwirespace.com/"
+        ]
+      ]
+    },
+    {
+      "id": "marss",
+      "name": "MARSS",
+      "country": "MC",
+      "origin": "Monaco",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Integrated security and counter-UAS systems",
+      "website": "https://marss.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://marss.com/"
+        ]
+      ]
+    },
+    {
+      "id": "rtx",
+      "name": "RTX",
+      "country": "US",
+      "origin": "United States",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Aerospace and defense group; sensors and air defense",
+      "website": "https://www.rtx.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.rtx.com/"
+        ]
+      ]
+    },
+    {
+      "id": "northrop-grumman",
+      "name": "Northrop Grumman",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Aerospace and defense manufacturer; unmanned aircraft",
+      "website": "https://www.northropgrumman.com/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.northropgrumman.com/"
+        ]
+      ]
+    },
+    {
+      "id": "aselsan",
+      "name": "ASELSAN",
+      "country": "TR",
+      "origin": "Türkiye",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Defense electronics and counter-UAS systems; November 23 demonstration reported by manufacturer",
+      "website": "https://www.aselsan.com/",
+      "offices": [],
+      "products": [
+        [
+          "Korkut",
+          "Product identified in coverage; details pending review",
+          "Counter-Drone Systems",
+          "Hardware"
+        ],
+        [
+          "EJDERHA",
+          "Electromagnetic counter-UAS system; manufacturer-reported demonstration November 23",
+          "Counter-Drone Systems",
+          "Hardware",
+          "https://www.aselsan.com/en/news/world-record-aselsans-ejderha-hpem-system-neutralizes-51-drones-simultaneously"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://www.aselsan.com/"
+        ],
+        [
+          "ASELSAN announcement, Nov 23",
+          "https://www.aselsan.com/en/news/world-record-aselsans-ejderha-hpem-system-neutralizes-51-drones-simultaneously"
+        ]
+      ]
+    },
+    {
+      "id": "aevex",
+      "name": "AEVEX",
+      "country": "US",
+      "origin": "United States",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Unmanned systems and aerospace technology",
+      "website": "https://aevex.com/",
+      "offices": [],
+      "products": [
+        [
+          "GARC",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://aevex.com/"
+        ]
+      ]
+    },
+    {
+      "id": "bharat-electronics",
+      "name": "Bharat Electronics Limited",
+      "country": "IN",
+      "origin": "India",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "State-owned defense electronics and radar manufacturer",
+      "website": "https://bel-india.in/",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://bel-india.in/"
+        ]
+      ]
+    },
+    {
+      "id": "watchtower-labs",
+      "name": "Watchtower Labs",
+      "country": "US",
+      "origin": "United States",
+      "category": "Command & Control",
+      "ownership": "Ownership details pending review",
+      "summary": "Military decision-support software; identity and funding pending verification",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "roboavia",
+      "name": "Roboavia",
+      "country": "RU",
+      "origin": "Russia",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Russian UAV manufacturer identified in October reporting; details pending verification",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "aerosentry",
+      "name": "AeroSentry Technologies",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Command & Control",
+      "ownership": "Ownership details pending review",
+      "summary": "AI flight-control startup; possible Ondas collaboration reported by Globes, not confirmed",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Globes, Nov 23",
+          "https://en.globes.co.il/en/article-defense-ministry-to-invest-nis-150m-on-drone-defense-1001564510"
+        ]
+      ]
+    },
+    {
+      "id": "m4-defense",
+      "name": "M4 Defense",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Ondas subsidiary providing border security infrastructure; broader security supplier, not confirmed drone manufacturer",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Globes, Nov 23",
+          "https://en.globes.co.il/en/article-defense-ministry-to-invest-nis-150m-on-drone-defense-1001564510"
+        ]
+      ]
+    },
+    {
+      "id": "aran-defense",
+      "name": "ARAN Defense",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Engineering and manufacturing services; planned Ondas acquisition as of November 10 announcement, completion not verified",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Ondas announcement, Nov 10",
+          "https://ir.ondas.com/press-releases/detail/340/ondas-receives-purchase-order-for-next-generation-tactical"
+        ]
+      ]
+    },
+    {
+      "id": "elisra",
+      "name": "Elisra",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Counter-Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Electronic warfare business within Elbit Systems; distinct operating entity",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ]
+      ]
+    },
+    {
+      "id": "aeronautics",
+      "name": "Aeronautics",
+      "country": "IL",
+      "origin": "Israel",
+      "category": "Drones",
+      "ownership": "Ownership details pending review",
+      "summary": "Unmanned reconnaissance aircraft manufacturer",
+      "website": "https://aeronautics-sys.com/",
+      "offices": [],
+      "products": [
+        [
+          "Orbiter 4",
+          "Product identified in coverage; details pending review",
+          "Unmanned Systems",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · October–November 2026 working editions · directory research pending",
+      "sources": [
+        [
+          "Editorial provenance — Payload working drafts (claims require verification)",
+          "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website — URL supplied for review",
+          "https://aeronautics-sys.com/"
+        ]
+      ]
+    },
+    {
+      "id": "airlogix",
+      "name": "Airlogix",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Unmanned aircraft; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "vyriy",
+      "name": "Vyriy Industries",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "UAV manufacturing; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "general-chereshnya",
+      "name": "General Chereshnya",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "UAV manufacturing; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "frontline-robotics",
+      "name": "Frontline Robotics",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Aerial robotics; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "taf-industries",
+      "name": "TAF Industries",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "UAV manufacturing; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "athlon-avia",
+      "name": "Athlon Avia",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Aerial reconnaissance; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "deviro",
+      "name": "DeViRo",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Aerial reconnaissance; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "ukrspecsystems",
+      "name": "Ukrspecsystems",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Unmanned aircraft; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "wild-hornets",
+      "name": "Wild Hornets",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "UAV development; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "norda-dynamics",
+      "name": "NORDA Dynamics",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Navigation & Communications",
+      "ownership": "Pending verification",
+      "summary": "Autonomous navigation; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "the-fourth-law",
+      "name": "The Fourth Law",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Command & Control",
+      "ownership": "Pending verification",
+      "summary": "Autonomous systems; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "teletactica",
+      "name": "Teletactica",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Navigation & Communications",
+      "ownership": "Pending verification",
+      "summary": "UAV communications; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "kara-dag",
+      "name": "Kara Dag Technologies",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Counter-Drones",
+      "ownership": "Pending verification",
+      "summary": "Drone detection; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "zvook",
+      "name": "Zvook",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Counter-Drones",
+      "ownership": "Pending verification",
+      "summary": "Acoustic detection; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "sky-hunter",
+      "name": "Sky Hunter",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Command & Control",
+      "ownership": "Pending verification",
+      "summary": "Drone software; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "unwave",
+      "name": "Unwave",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Counter-Drones",
+      "ownership": "Pending verification",
+      "summary": "Electronic warfare; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "falcons-ua",
+      "name": "Falcons",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Counter-Drones",
+      "ownership": "Pending verification",
+      "summary": "Electronic sensing; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "amazing-drones",
+      "name": "Amazing Drones",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Unmanned aircraft; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "wiy-drones",
+      "name": "WIY Drones",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Unmanned aircraft; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    },
+    {
+      "id": "besomar",
+      "name": "Besomar",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Pending verification",
+      "summary": "Unmanned aircraft; preliminary directory listing, specialization and legal entity pending verification.",
+      "website": "",
+      "offices": [],
+      "products": [],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
+      "sources": []
+    }
+  ]
+}
