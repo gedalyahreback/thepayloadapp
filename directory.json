@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
+  "revision": 2,
   "companies": [
     {
       "id": "d-fend",
@@ -3508,15 +3508,22 @@
     },
     {
       "id": "uforce",
-      "name": "Uforce",
+      "name": "UFORCE",
       "country": "GB",
-      "origin": "United Kingdom",
+      "origin": "Ukraine · UK-headquartered",
       "category": "Drones",
       "ownership": "Ownership details pending review",
-      "summary": "UK-headquartered defense technology group with Ukrainian manufacturing interests; ownership details pending verification",
-      "website": "",
+      "summary": "Ukrainian-founded defense technology group headquartered in the United Kingdom; publicly associated with production of the MAGURA family of uncrewed surface vessels. Historical manufacturing responsibilities for the V5 remain unclear.",
+      "website": "https://www.uforce.com/",
       "offices": [],
-      "products": [],
+      "products": [
+        [
+          "MAGURA V5",
+          "Uncrewed surface vessel (USV)",
+          "Ground & Maritime Vehicles",
+          "Hardware"
+        ]
+      ],
       "funding": null,
       "employees": null,
       "investors": [],
@@ -3527,6 +3534,14 @@
         [
           "Editorial provenance — Payload working drafts (claims require verification)",
           "https://docs.google.com/document/d/1UTmm9EK_hHi3gBaLL4CYiUoTNNVAUdbtAN-zwq5EKow/edit"
+        ],
+        [
+          "Company website",
+          "https://www.uforce.com/"
+        ],
+        [
+          "Company LinkedIn",
+          "https://www.linkedin.com/company/uforce-global"
         ]
       ]
     },
@@ -4991,6 +5006,38 @@
       "customers": [],
       "coverage": "The Payload · November 25 Ukrainian ecosystem research shortlist; not yet independently verified",
       "sources": []
+    },
+    {
+      "id": "sbu",
+      "name": "Security Service of Ukraine (SBU)",
+      "country": "UA",
+      "origin": "Ukraine",
+      "category": "Drones",
+      "ownership": "Government agency · not a commercial manufacturer",
+      "summary": "Ukrainian state security agency and developer of the Sea Baby maritime drone family. Commercial manufacturing partner not publicly confirmed.",
+      "website": "https://ssu.gov.ua/",
+      "logo": "",
+      "offices": [],
+      "products": [
+        [
+          "Sea Baby",
+          "Uncrewed surface vessel (USV); SBU-led development, commercial manufacturer unconfirmed",
+          "Ground & Maritime Vehicles",
+          "Hardware"
+        ]
+      ],
+      "funding": null,
+      "employees": null,
+      "investors": [],
+      "founders": [],
+      "customers": [],
+      "coverage": "The Payload · November 2026 · maritime drones",
+      "sources": [
+        [
+          "SBU official website",
+          "https://ssu.gov.ua/"
+        ]
+      ]
     }
   ]
 }
